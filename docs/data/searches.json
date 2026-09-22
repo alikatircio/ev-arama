@@ -28,5 +28,15 @@
     "ntfyTopic": null,
     "active": true,
     "createdAt": "2026-09-22T17:29:10.311Z"
+  },
+  {
+    "id": "s1790098241889",
+    "nickname": "Filderstadt daire",
+    "site": "immowelt",
+    "url": "https://www.immowelt.de/classified-search?distributionTypes=Rent&estateTypes=House,Apartment&locations=NBH2DE11868&numberOfRoomsMax=5&numberOfRoomsMin=3&m=homepage_new_search_classified_search_result",
+    "owner": "Ali",
+    "ntfyTopic": null,
+    "active": true,
+    "createdAt": "2026-09-22T17:30:41.889Z"
   }
 ]
