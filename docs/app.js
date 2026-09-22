@@ -179,7 +179,7 @@ function renderListings() {
   const showOriginal = document.getElementById('show-original').checked;
   const user = localStorage.getItem('ev-arama-user');
 
-  let items = [...state.listings].sort((a, b) => new Date(b.firstSeenAt) - new Date(a.firstSeenAt));
+  let items = [...state.listings];
 
   if (activeTab === 'favorites') {
     const favIds = new Set(state.favorites.filter((f) => f.user === user).map((f) => f.listingId));
@@ -192,6 +192,30 @@ function renderListings() {
   const priceMax = parseInt(document.getElementById('filter-price-max').value, 10);
   if (!isNaN(priceMin)) items = items.filter((i) => { const p = parsePrice(i.price); return p !== null && p >= priceMin; });
   if (!isNaN(priceMax)) items = items.filter((i) => { const p = parsePrice(i.price); return p !== null && p <= priceMax; });
+
+  const sortOrder = document.getElementById('sort-order').value;
+  const byDate = (a, b) => new Date(a.firstSeenAt) - new Date(b.firstSeenAt);
+  // Listings without a parseable price sort last, regardless of direction.
+  const byPrice = (a, b) => {
+    const pa = parsePrice(a.price);
+    const pb = parsePrice(b.price);
+    if (pa === null && pb === null) return 0;
+    if (pa === null) return 1;
+    if (pb === null) return -1;
+    return pa - pb;
+  };
+  const byPriceDesc = (a, b) => {
+    const pa = parsePrice(a.price);
+    const pb = parsePrice(b.price);
+    if (pa === null && pb === null) return 0;
+    if (pa === null) return 1;
+    if (pb === null) return -1;
+    return pb - pa;
+  };
+  if (sortOrder === 'oldest') items.sort(byDate);
+  else if (sortOrder === 'price-asc') items.sort(byPrice);
+  else if (sortOrder === 'price-desc') items.sort(byPriceDesc);
+  else items.sort((a, b) => byDate(b, a));
 
   const container = document.getElementById('listings');
   container.innerHTML = '';
@@ -338,6 +362,7 @@ function setupFilters() {
   document.getElementById('show-original').addEventListener('change', renderListings);
   document.getElementById('filter-price-min').addEventListener('input', renderListings);
   document.getElementById('filter-price-max').addEventListener('input', renderListings);
+  document.getElementById('sort-order').addEventListener('change', renderListings);
 }
 
 function setupAddSearchForm() {
