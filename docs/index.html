@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ev Arama</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <h1>🏠 Ev Arama</h1>
+    <div id="status-bar" class="status-bar"></div>
+  </header>
+
+  <main>
+    <section class="controls">
+      <div class="tabs">
+        <button class="tab active" data-tab="all">Tümü</button>
+        <button class="tab" data-tab="favorites">Favoriler</button>
+        <button class="tab" data-tab="searches">Aramalar</button>
+      </div>
+
+      <div class="filters">
+        <select id="filter-search"><option value="">Tüm aramalar</option></select>
+        <select id="filter-site">
+          <option value="">Tüm siteler</option>
+          <option value="kleinanzeigen">Kleinanzeigen</option>
+          <option value="immowelt">Immowelt</option>
+          <option value="immoscout">ImmoScout24</option>
+        </select>
+        <label class="lang-toggle">
+          <input type="checkbox" id="show-original" />
+          Orijinal (Almanca) göster
+        </label>
+      </div>
+    </section>
+
+    <section id="view-all" class="view">
+      <div id="listings" class="listings"></div>
+      <p id="empty-msg" class="empty-msg" hidden>Henüz ilan yok. Önce bir arama ekleyin.</p>
+    </section>
+
+    <section id="view-searches" class="view" hidden>
+      <button id="trigger-scrape-btn" type="button" class="tab" style="margin-bottom:12px">🔄 Şimdi tara</button>
+      <p id="trigger-scrape-status" class="form-status"></p>
+      <form id="add-search-form" class="add-search-form">
+        <h2>Yeni arama ekle</h2>
+        <label>Takma ad<input type="text" id="f-nickname" placeholder="Berlin 2 oda, 1500 altı" required /></label>
+        <label>Site
+          <select id="f-site" required>
+            <option value="kleinanzeigen">Kleinanzeigen</option>
+            <option value="immowelt">Immowelt</option>
+            <option value="immoscout">ImmoScout24 (sık sık engellenebilir)</option>
+          </select>
+        </label>
+        <label>Arama sonucu linki
+          <input type="url" id="f-url" placeholder="Sitede filtreleri uygulayıp adres çubuğundan kopyala" required />
+        </label>
+        <label>Kim ekliyor<input type="text" id="f-owner" placeholder="Ali / Eşim" required /></label>
+        <label>Bildirim kanalın (ntfy topic, opsiyonel)<input type="text" id="f-ntfy" placeholder="ev-arama-ali-x7f3k9" /></label>
+        <button type="submit">Ekle</button>
+        <p id="add-search-status" class="form-status"></p>
+      </form>
+
+      <h2>Mevcut aramalar</h2>
+      <div id="search-list" class="search-list"></div>
+    </section>
+  </main>
+
+  <template id="listing-card-tpl">
+    <article class="card">
+      <div class="card-img">
+        <img loading="lazy" />
+        <span class="site-badge"></span>
+      </div>
+      <div class="card-body">
+        <h3 class="card-title"></h3>
+        <p class="card-facts"></p>
+        <p class="card-location"></p>
+        <p class="card-price"></p>
+        <div class="card-actions">
+          <a class="card-link" target="_blank" rel="noopener">İlana git ↗</a>
+          <button class="fav-btn">☆ Favori</button>
+        </div>
+      </div>
+    </article>
+  </template>
+
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

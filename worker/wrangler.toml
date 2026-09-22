@@ -1,0 +1,11 @@
+name = "ev-arama-worker"
+main = "index.js"
+compatibility_date = "2024-11-01"
+
+[vars]
+GITHUB_REPO = "alikatircio/ev-arama"
+GITHUB_BRANCH = "main"
+
+# GITHUB_TOKEN gizli bilgi olduğu için buraya yazılmaz.
+# Kurulum sırasında şu komutla eklenecek:
+#   wrangler secret put GITHUB_TOKEN
