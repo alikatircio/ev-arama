@@ -6,7 +6,7 @@ const SITE_LABELS = {
   immoscout: 'ImmoScout24',
 };
 
-let state = { searches: [], listings: [], status: {}, favorites: [] };
+let state = { searches: [], listings: [], status: {}, favorites: [], dismissed: [] };
 let activeTab = 'all';
 let editingSearchId = null;
 const detailCache = new Map();
@@ -19,13 +19,14 @@ function parsePrice(priceStr) {
 
 async function loadData() {
   const bust = `?t=${Date.now()}`;
-  const [searches, listings, status, favorites] = await Promise.all([
+  const [searches, listings, status, favorites, dismissed] = await Promise.all([
     fetchJson(`data/searches.json${bust}`, []),
     fetchJson(`data/listings.json${bust}`, []),
     fetchJson(`data/status.json${bust}`, {}),
     fetchJson(`data/favorites.json${bust}`, []),
+    fetchJson(`data/dismissed.json${bust}`, []),
   ]);
-  state = { searches, listings, status, favorites };
+  state = { searches, listings, status, favorites, dismissed };
   renderStatusBar();
   renderSearchFilter();
   renderSearchList();
@@ -180,7 +181,13 @@ function renderListings() {
   const user = localStorage.getItem('ev-arama-user');
 
   let items = [...state.listings];
+  const dismissedIds = new Set(state.dismissed.map((d) => d.listingId));
 
+  if (activeTab === 'dismissed') {
+    items = items.filter((i) => dismissedIds.has(i.id));
+  } else {
+    items = items.filter((i) => !dismissedIds.has(i.id));
+  }
   if (activeTab === 'favorites') {
     const favIds = new Set(state.favorites.filter((f) => f.user === user).map((f) => f.listingId));
     items = items.filter((i) => favIds.has(i.id));
@@ -244,11 +251,38 @@ function renderListings() {
     favBtn.classList.toggle('active', fav);
     favBtn.addEventListener('click', () => toggleFavorite(item.id, favBtn));
 
+    const dismissBtn = node.querySelector('.dismiss-btn');
+    const isDismissed = dismissedIds.has(item.id);
+    dismissBtn.textContent = isDismissed ? '↩︎ Geri getir' : '🚫 Gizle';
+    dismissBtn.classList.toggle('restore', isDismissed);
+    dismissBtn.addEventListener('click', () => toggleDismiss(item.id));
+
     node.querySelectorAll('.card-open').forEach((el) => {
       el.addEventListener('click', () => openDetailModal(item));
     });
 
     container.appendChild(node);
+  }
+}
+
+async function toggleDismiss(listingId) {
+  const user = currentUser();
+  try {
+    const res = await fetch(`${WORKER_URL}/listings/dismiss`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ listingId, user }),
+    });
+    if (!res.ok) throw new Error(await res.text());
+    const { dismissed } = await res.json();
+    if (dismissed) {
+      state.dismissed.push({ listingId, by: user, at: new Date().toISOString() });
+    } else {
+      state.dismissed = state.dismissed.filter((d) => d.listingId !== listingId);
+    }
+    renderListings();
+  } catch (err) {
+    alert('Gizlenemedi: ' + err.message);
   }
 }
 

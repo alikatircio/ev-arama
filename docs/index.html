@@ -17,6 +17,7 @@
       <div class="tabs">
         <button class="tab active" data-tab="all">Tümü</button>
         <button class="tab" data-tab="favorites">Favoriler</button>
+        <button class="tab" data-tab="dismissed">Gizlenenler</button>
         <button class="tab" data-tab="searches">Aramalar</button>
       </div>
 
@@ -88,7 +89,10 @@
         <p class="card-price"></p>
         <div class="card-actions">
           <a class="card-link" target="_blank" rel="noopener">İlana git ↗</a>
-          <button class="fav-btn">☆ Favori</button>
+          <div class="card-actions-right">
+            <button class="fav-btn">☆ Favori</button>
+            <button class="dismiss-btn">🚫 Gizle</button>
+          </div>
         </div>
       </div>
     </article>

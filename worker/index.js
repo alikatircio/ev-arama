@@ -22,6 +22,9 @@ export default {
       if (request.method === 'POST' && url.pathname === '/favorites/toggle') {
         return await handleToggleFavorite(request, env);
       }
+      if (request.method === 'POST' && url.pathname === '/listings/dismiss') {
+        return await handleToggleDismiss(request, env);
+      }
       if (request.method === 'POST' && url.pathname === '/searches/update') {
         return await handleUpdateSearch(request, env);
       }
@@ -167,6 +170,33 @@ async function handleToggleFavorite(request, env) {
     `Favori güncelleme: ${user} - ${listingId}`
   );
   return json({ ok: true, favorited });
+}
+
+async function handleToggleDismiss(request, env) {
+  const body = await request.json();
+  const { listingId, user } = body;
+  if (!listingId) return json({ error: 'listingId zorunlu' }, 400);
+
+  const { content: dismissed, sha } = await githubGetFile(env, 'docs/data/dismissed.json');
+  const idx = dismissed.findIndex((d) => d.listingId === listingId);
+
+  let dismissedNow;
+  if (idx >= 0) {
+    dismissed.splice(idx, 1);
+    dismissedNow = false;
+  } else {
+    dismissed.push({ listingId, by: user || null, at: new Date().toISOString() });
+    dismissedNow = true;
+  }
+
+  await githubPutFile(
+    env,
+    'docs/data/dismissed.json',
+    dismissed,
+    sha,
+    `Gizleme güncelleme: ${listingId}`
+  );
+  return json({ ok: true, dismissed: dismissedNow });
 }
 
 async function handleDetail(url, env) {

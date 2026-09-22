@@ -125,6 +125,17 @@ body {
   font-size: 0.85rem;
 }
 .fav-btn.active { color: #d99a00; border-color: #d99a00; }
+.card-actions-right { display: flex; gap: 6px; }
+.dismiss-btn {
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--muted);
+  padding: 4px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+.dismiss-btn.restore { color: var(--ok); border-color: var(--ok); }
 
 .empty-msg { color: var(--muted); text-align: center; margin-top: 40px; }
 
