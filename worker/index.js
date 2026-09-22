@@ -199,7 +199,7 @@ async function handleDetail(url, env) {
     },
   });
   await rewriter.transform(res).arrayBuffer();
-  description = description.trim().replace(/\n{3,}/g, '\n\n');
+  description = decodeEntities(description).trim().replace(/\n{3,}/g, '\n\n');
 
   if (!description) {
     return json({ supported: false, reason: 'Açıklama bulunamadı.' });
@@ -207,6 +207,19 @@ async function handleDetail(url, env) {
 
   const descriptionTr = await translateToTurkish(description, env);
   return json({ supported: true, description, descriptionTr });
+}
+
+// HTMLRewriter's text chunks can leak numeric/named character references
+// (e.g. a plain "/" comes back as "&#x2F;") instead of decoded text.
+function decodeEntities(text) {
+  return text
+    .replace(/&#x([0-9a-fA-F]+);/g, (_, hex) => String.fromCodePoint(parseInt(hex, 16)))
+    .replace(/&#(\d+);/g, (_, dec) => String.fromCodePoint(parseInt(dec, 10)))
+    .replace(/&amp;/g, '&')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;|&apos;/g, "'");
 }
 
 async function translateToTurkish(text, env) {
