@@ -18,5 +18,15 @@
     "ntfyTopic": null,
     "active": true,
     "createdAt": "2026-09-22T17:19:11.950Z"
+  },
+  {
+    "id": "s1790098150311",
+    "nickname": "Plieningen",
+    "site": "kleinanzeigen",
+    "url": "https://www.kleinanzeigen.de/s-wohnung-mieten/plieningen/c203l9332+wohnung_mieten.zimmer_d:3%2C5",
+    "owner": "Ali",
+    "ntfyTopic": null,
+    "active": true,
+    "createdAt": "2026-09-22T17:29:10.311Z"
   }
 ]
