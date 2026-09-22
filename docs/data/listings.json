@@ -586,5 +586,19 @@
     "location": "70771 Leinfelden-Echterdingen",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/76/762ed448-f398-4232-b694-a5e7515ad34f?rule=$_2.AUTO",
     "firstSeenAt": "2026-09-22T17:20:10.641Z"
+  },
+  {
+    "id": "kleinanzeigen:3501369197",
+    "site": "kleinanzeigen",
+    "searchId": "s1790098150311",
+    "externalId": "3501369197",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/maisonette-wohnung-in-stgt-plieningen/3501369197-203-9602",
+    "title": "Maisonette Wohnung in Stgt. Plieningen",
+    "titleTr": "Stgt. Plieningen’de dubleks daire",
+    "price": "1.100 €",
+    "facts": "75 m² · 3,5 Zi.",
+    "location": "70599 Plieningen",
+    "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/79/79a80566-5172-4315-9b87-b63659ca1530?rule=$_2.AUTO",
+    "firstSeenAt": "2026-09-22T17:30:04.490Z"
   }
 ]
