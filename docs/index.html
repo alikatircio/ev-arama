@@ -28,6 +28,8 @@
           <option value="immowelt">Immowelt</option>
           <option value="immoscout">ImmoScout24</option>
         </select>
+        <input type="number" id="filter-price-min" placeholder="Min €" min="0" />
+        <input type="number" id="filter-price-max" placeholder="Maks €" min="0" />
         <label class="lang-toggle">
           <input type="checkbox" id="show-original" />
           Orijinal (Almanca) göster
@@ -69,12 +71,12 @@
 
   <template id="listing-card-tpl">
     <article class="card">
-      <div class="card-img">
+      <div class="card-img card-open">
         <img loading="lazy" />
         <span class="site-badge"></span>
       </div>
       <div class="card-body">
-        <h3 class="card-title"></h3>
+        <h3 class="card-title card-open"></h3>
         <p class="card-facts"></p>
         <p class="card-location"></p>
         <p class="card-price"></p>
@@ -85,6 +87,25 @@
       </div>
     </article>
   </template>
+
+  <div id="detail-modal" class="modal-backdrop" hidden>
+    <div class="modal">
+      <button id="modal-close" class="modal-close" type="button">✕</button>
+      <span id="modal-site-badge" class="site-badge"></span>
+      <h2 id="modal-title"></h2>
+      <p id="modal-facts" class="card-facts"></p>
+      <p id="modal-location" class="card-location"></p>
+      <p id="modal-price" class="card-price"></p>
+      <hr />
+      <div id="modal-description-loading">Açıklama yükleniyor...</div>
+      <p id="modal-description" class="modal-description" hidden></p>
+      <label class="lang-toggle" id="modal-lang-toggle" hidden>
+        <input type="checkbox" id="modal-show-original" />
+        Orijinal (Almanca) göster
+      </label>
+      <a id="modal-link" class="card-link" target="_blank" rel="noopener">Orijinal ilana git ↗</a>
+    </div>
+  </div>
 
   <script src="config.js"></script>
   <script src="app.js"></script>

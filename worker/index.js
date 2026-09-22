@@ -1,7 +1,11 @@
 const CORS_HEADERS = {
   'Access-Control-Allow-Origin': '*',
-  'Access-Control-Allow-Methods': 'POST, OPTIONS',
+  'Access-Control-Allow-Methods': 'GET, POST, OPTIONS',
   'Access-Control-Allow-Headers': 'Content-Type',
+};
+
+const DETAIL_SELECTORS = {
+  kleinanzeigen: '#viewad-description-text',
 };
 
 export default {
@@ -18,8 +22,17 @@ export default {
       if (request.method === 'POST' && url.pathname === '/favorites/toggle') {
         return await handleToggleFavorite(request, env);
       }
+      if (request.method === 'POST' && url.pathname === '/searches/update') {
+        return await handleUpdateSearch(request, env);
+      }
+      if (request.method === 'POST' && url.pathname === '/searches/delete') {
+        return await handleDeleteSearch(request, env);
+      }
       if (request.method === 'POST' && url.pathname === '/trigger-scrape') {
         return await handleTriggerScrape(env);
+      }
+      if (request.method === 'GET' && url.pathname === '/detail') {
+        return await handleDetail(url, env);
       }
       return json({ error: 'not found' }, 404);
     } catch (err) {
@@ -96,6 +109,39 @@ async function handleAddSearch(request, env) {
   return json({ ok: true, search: newSearch });
 }
 
+async function handleUpdateSearch(request, env) {
+  const body = await request.json();
+  const { id, nickname, site, url: searchUrl, ntfyTopic, active } = body;
+  if (!id) return json({ error: 'id zorunlu' }, 400);
+
+  const { content: searches, sha } = await githubGetFile(env, 'docs/data/searches.json');
+  const search = searches.find((s) => s.id === id);
+  if (!search) return json({ error: 'arama bulunamadı' }, 404);
+
+  if (nickname !== undefined) search.nickname = nickname;
+  if (site !== undefined) search.site = site;
+  if (searchUrl !== undefined) search.url = searchUrl;
+  if (ntfyTopic !== undefined) search.ntfyTopic = ntfyTopic || null;
+  if (active !== undefined) search.active = active;
+
+  await githubPutFile(env, 'docs/data/searches.json', searches, sha, `Arama güncellendi: ${search.nickname}`);
+  return json({ ok: true, search });
+}
+
+async function handleDeleteSearch(request, env) {
+  const body = await request.json();
+  const { id } = body;
+  if (!id) return json({ error: 'id zorunlu' }, 400);
+
+  const { content: searches, sha } = await githubGetFile(env, 'docs/data/searches.json');
+  const idx = searches.findIndex((s) => s.id === id);
+  if (idx === -1) return json({ error: 'arama bulunamadı' }, 404);
+  const [removed] = searches.splice(idx, 1);
+
+  await githubPutFile(env, 'docs/data/searches.json', searches, sha, `Arama silindi: ${removed.nickname}`);
+  return json({ ok: true });
+}
+
 async function handleToggleFavorite(request, env) {
   const body = await request.json();
   const { listingId, user } = body;
@@ -121,6 +167,65 @@ async function handleToggleFavorite(request, env) {
     `Favori güncelleme: ${user} - ${listingId}`
   );
   return json({ ok: true, favorited });
+}
+
+async function handleDetail(url, env) {
+  const site = url.searchParams.get('site');
+  const targetUrl = url.searchParams.get('url');
+  if (!site || !targetUrl) return json({ error: 'site ve url zorunlu' }, 400);
+
+  const selector = DETAIL_SELECTORS[site];
+  if (!selector) {
+    return json({ supported: false, reason: 'Bu site için otomatik açıklama desteklenmiyor.' });
+  }
+
+  const res = await fetch(targetUrl, {
+    headers: {
+      'User-Agent':
+        'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36',
+    },
+  });
+  if (!res.ok) {
+    return json({ supported: false, reason: `Kaynak sayfa alınamadı (${res.status}).` });
+  }
+
+  let description = '';
+  const rewriter = new HTMLRewriter().on(selector, {
+    text(chunk) {
+      description += chunk.text;
+      // Original line breaks (often <br> tags) don't appear in text chunks,
+      // so without this, sentences run together with no spacing at all.
+      if (chunk.lastInTextNode) description += '\n';
+    },
+  });
+  await rewriter.transform(res).arrayBuffer();
+  description = description.trim().replace(/\n{3,}/g, '\n\n');
+
+  if (!description) {
+    return json({ supported: false, reason: 'Açıklama bulunamadı.' });
+  }
+
+  const descriptionTr = await translateToTurkish(description, env);
+  return json({ supported: true, description, descriptionTr });
+}
+
+async function translateToTurkish(text, env) {
+  if (!env.DEEPL_API_KEY) return null;
+  try {
+    const res = await fetch('https://api-free.deepl.com/v2/translate', {
+      method: 'POST',
+      headers: {
+        Authorization: `DeepL-Auth-Key ${env.DEEPL_API_KEY}`,
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ text: [text], target_lang: 'TR', source_lang: 'DE' }),
+    });
+    if (!res.ok) return null;
+    const data = await res.json();
+    return data.translations?.[0]?.text ?? null;
+  } catch {
+    return null;
+  }
 }
 
 async function handleTriggerScrape(env) {

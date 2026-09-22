@@ -8,6 +8,14 @@ const SITE_LABELS = {
 
 let state = { searches: [], listings: [], status: {}, favorites: [] };
 let activeTab = 'all';
+let editingSearchId = null;
+const detailCache = new Map();
+
+function parsePrice(priceStr) {
+  if (!priceStr) return null;
+  const digits = priceStr.replace(/[^\d]/g, '');
+  return digits ? parseInt(digits, 10) : null;
+}
 
 async function loadData() {
   const bust = `?t=${Date.now()}`;
@@ -93,10 +101,61 @@ function renderSearchList() {
       <div>
         <strong>${escapeHtml(s.nickname)}</strong>
         <div class="meta">${SITE_LABELS[s.site] || s.site} · ekleyen: ${escapeHtml(s.owner || '?')} · ${s.active === false ? 'pasif' : 'aktif'}</div>
+        <div class="meta"><a href="${s.url}" target="_blank" rel="noopener">arama linki ↗</a></div>
       </div>
-      <div class="meta"><a href="${s.url}" target="_blank" rel="noopener">arama linki ↗</a></div>
+      <div class="row-actions">
+        <button type="button" class="edit-search-btn">Düzenle</button>
+        <button type="button" class="danger delete-search-btn">Sil</button>
+      </div>
     `;
+    row.querySelector('.edit-search-btn').addEventListener('click', () => startEditSearch(s));
+    row.querySelector('.delete-search-btn').addEventListener('click', () => deleteSearch(s));
     wrap.appendChild(row);
+  }
+}
+
+function startEditSearch(s) {
+  editingSearchId = s.id;
+  document.getElementById('f-nickname').value = s.nickname;
+  document.getElementById('f-site').value = s.site;
+  document.getElementById('f-url').value = s.url;
+  document.getElementById('f-owner').value = s.owner || '';
+  document.getElementById('f-ntfy').value = s.ntfyTopic || '';
+  const form = document.getElementById('add-search-form');
+  form.querySelector('h2').textContent = 'Aramayı düzenle';
+  form.querySelector('button[type="submit"]').textContent = 'Güncelle';
+  if (!form.querySelector('.cancel-edit-btn')) {
+    const cancelBtn = document.createElement('button');
+    cancelBtn.type = 'button';
+    cancelBtn.textContent = 'Vazgeç';
+    cancelBtn.className = 'cancel-edit-btn';
+    cancelBtn.addEventListener('click', cancelEditSearch);
+    form.querySelector('button[type="submit"]').after(cancelBtn);
+  }
+  form.scrollIntoView({ behavior: 'smooth' });
+}
+
+function cancelEditSearch() {
+  editingSearchId = null;
+  const form = document.getElementById('add-search-form');
+  form.reset();
+  form.querySelector('h2').textContent = 'Yeni arama ekle';
+  form.querySelector('button[type="submit"]').textContent = 'Ekle';
+  form.querySelector('.cancel-edit-btn')?.remove();
+}
+
+async function deleteSearch(s) {
+  if (!confirm(`"${s.nickname}" aramasını silmek istediğine emin misin?`)) return;
+  try {
+    const res = await fetch(`${WORKER_URL}/searches/delete`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ id: s.id }),
+    });
+    if (!res.ok) throw new Error(await res.text());
+    await loadData();
+  } catch (err) {
+    alert('Silinemedi: ' + err.message);
   }
 }
 
@@ -129,6 +188,11 @@ function renderListings() {
   if (searchFilter) items = items.filter((i) => i.searchId === searchFilter);
   if (siteFilter) items = items.filter((i) => i.site === siteFilter);
 
+  const priceMin = parseInt(document.getElementById('filter-price-min').value, 10);
+  const priceMax = parseInt(document.getElementById('filter-price-max').value, 10);
+  if (!isNaN(priceMin)) items = items.filter((i) => { const p = parsePrice(i.price); return p !== null && p >= priceMin; });
+  if (!isNaN(priceMax)) items = items.filter((i) => { const p = parsePrice(i.price); return p !== null && p <= priceMax; });
+
   const container = document.getElementById('listings');
   container.innerHTML = '';
   document.getElementById('empty-msg').hidden = items.length > 0;
@@ -155,6 +219,10 @@ function renderListings() {
     favBtn.textContent = fav ? '★ Favori' : '☆ Favori';
     favBtn.classList.toggle('active', fav);
     favBtn.addEventListener('click', () => toggleFavorite(item.id, favBtn));
+
+    node.querySelectorAll('.card-open').forEach((el) => {
+      el.addEventListener('click', () => openDetailModal(item));
+    });
 
     container.appendChild(node);
   }
@@ -185,6 +253,63 @@ async function toggleFavorite(listingId, btn) {
   }
 }
 
+async function openDetailModal(item) {
+  const modal = document.getElementById('detail-modal');
+  const showOriginal = document.getElementById('show-original').checked;
+
+  document.getElementById('modal-site-badge').textContent = SITE_LABELS[item.site] || item.site;
+  document.getElementById('modal-title').textContent = (!showOriginal && item.titleTr) ? item.titleTr : item.title;
+  document.getElementById('modal-facts').textContent = item.facts || '';
+  document.getElementById('modal-location').textContent = item.location || '';
+  document.getElementById('modal-price').textContent = item.price || '';
+  document.getElementById('modal-link').href = item.url;
+
+  const loadingEl = document.getElementById('modal-description-loading');
+  const descEl = document.getElementById('modal-description');
+  const toggleEl = document.getElementById('modal-lang-toggle');
+  const toggleInput = document.getElementById('modal-show-original');
+  descEl.hidden = true;
+  toggleEl.hidden = true;
+  loadingEl.hidden = false;
+  loadingEl.textContent = 'Açıklama yükleniyor...';
+  modal.hidden = false;
+
+  let detail = detailCache.get(item.id);
+  if (!detail) {
+    try {
+      const res = await fetch(`${WORKER_URL}/detail?site=${encodeURIComponent(item.site)}&url=${encodeURIComponent(item.url)}`);
+      detail = await res.json();
+      detailCache.set(item.id, detail);
+    } catch (err) {
+      detail = { supported: false, reason: 'Bağlantı hatası: ' + err.message };
+    }
+  }
+
+  loadingEl.hidden = true;
+  if (!detail.supported) {
+    loadingEl.hidden = false;
+    loadingEl.textContent = detail.reason || 'Açıklama alınamadı. Orijinal ilana gidebilirsin.';
+    return;
+  }
+
+  const renderDesc = () => {
+    const useOriginal = toggleInput.checked;
+    descEl.textContent = (!useOriginal && detail.descriptionTr) ? detail.descriptionTr : detail.description;
+  };
+  toggleInput.checked = false;
+  toggleInput.onchange = renderDesc;
+  toggleEl.hidden = !detail.descriptionTr;
+  descEl.hidden = false;
+  renderDesc();
+}
+
+function setupModal() {
+  const modal = document.getElementById('detail-modal');
+  document.getElementById('modal-close').addEventListener('click', () => { modal.hidden = true; });
+  modal.addEventListener('click', (e) => { if (e.target === modal) modal.hidden = true; });
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape') modal.hidden = true; });
+}
+
 function escapeHtml(s) {
   const div = document.createElement('div');
   div.textContent = s ?? '';
@@ -209,6 +334,8 @@ function setupFilters() {
   document.getElementById('filter-search').addEventListener('change', renderListings);
   document.getElementById('filter-site').addEventListener('change', renderListings);
   document.getElementById('show-original').addEventListener('change', renderListings);
+  document.getElementById('filter-price-min').addEventListener('input', renderListings);
+  document.getElementById('filter-price-max').addEventListener('input', renderListings);
 }
 
 function setupAddSearchForm() {
@@ -216,7 +343,8 @@ function setupAddSearchForm() {
   form.addEventListener('submit', async (e) => {
     e.preventDefault();
     const statusEl = document.getElementById('add-search-status');
-    statusEl.textContent = 'Ekleniyor...';
+    const isEdit = !!editingSearchId;
+    statusEl.textContent = isEdit ? 'Güncelleniyor...' : 'Ekleniyor...';
     statusEl.style.color = 'var(--muted)';
 
     const payload = {
@@ -226,17 +354,18 @@ function setupAddSearchForm() {
       owner: document.getElementById('f-owner').value.trim(),
       ntfyTopic: document.getElementById('f-ntfy').value.trim() || null,
     };
+    if (isEdit) payload.id = editingSearchId;
 
     try {
-      const res = await fetch(`${WORKER_URL}/searches`, {
+      const res = await fetch(`${WORKER_URL}${isEdit ? '/searches/update' : '/searches'}`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload),
       });
       if (!res.ok) throw new Error(await res.text());
       statusEl.style.color = 'var(--ok)';
-      statusEl.textContent = 'Eklendi. Bir sonraki taramada sonuçlar gelecek.';
-      form.reset();
+      statusEl.textContent = isEdit ? 'Güncellendi.' : 'Eklendi. Bir sonraki taramada sonuçlar gelecek.';
+      if (isEdit) cancelEditSearch(); else form.reset();
       await loadData();
     } catch (err) {
       statusEl.style.color = 'var(--danger)';
@@ -270,4 +399,5 @@ setupTabs();
 setupFilters();
 setupAddSearchForm();
 setupTriggerScrape();
+setupModal();
 loadData();

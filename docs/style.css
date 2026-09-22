@@ -25,6 +25,7 @@
 }
 
 * { box-sizing: border-box; }
+[hidden] { display: none !important; }
 
 body {
   margin: 0;
@@ -171,3 +172,63 @@ body {
   flex-wrap: wrap;
 }
 .search-row .meta { font-size: 0.8rem; color: var(--muted); }
+.search-row .row-actions { display: flex; gap: 6px; }
+.search-row button {
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--text);
+  padding: 4px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+.search-row button.danger { color: var(--danger); border-color: var(--danger); }
+
+.filters input[type="number"] { width: 90px; }
+
+.card-open { cursor: pointer; }
+
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  z-index: 1000;
+}
+@media (min-width: 640px) {
+  .modal-backdrop { align-items: center; }
+}
+.modal {
+  position: relative;
+  background: var(--surface);
+  color: var(--text);
+  border-radius: 16px 16px 0 0;
+  padding: 20px;
+  max-width: 560px;
+  width: 100%;
+  max-height: 85vh;
+  overflow-y: auto;
+  padding-bottom: calc(20px + env(safe-area-inset-bottom, 0px));
+}
+@media (min-width: 640px) {
+  .modal { border-radius: 16px; max-height: 80vh; }
+}
+.modal-close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  border: none;
+  background: var(--border);
+  color: var(--text);
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.modal h2 { margin: 8px 40px 4px 0; font-size: 1.1rem; }
+.modal hr { border: none; border-top: 1px solid var(--border); margin: 14px 0; }
+.modal-description { white-space: pre-line; line-height: 1.5; font-size: 0.9rem; }
+#modal-description-loading { color: var(--muted); font-size: 0.9rem; }
