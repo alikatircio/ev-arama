@@ -1,5 +1,17 @@
 {
-  "kleinanzeigen": { "lastAttempt": null, "lastSuccess": null, "lastError": null },
-  "immowelt": { "lastAttempt": null, "lastSuccess": null, "lastError": null },
-  "immoscout": { "lastAttempt": null, "lastSuccess": null, "lastError": null }
+  "kleinanzeigen": {
+    "lastAttempt": "2026-09-22T16:29:51.651Z",
+    "lastSuccess": "2026-09-22T16:29:51.651Z",
+    "lastError": null
+  },
+  "immowelt": {
+    "lastAttempt": null,
+    "lastSuccess": null,
+    "lastError": null
+  },
+  "immoscout": {
+    "lastAttempt": null,
+    "lastSuccess": null,
+    "lastError": null
+  }
 }
