@@ -91,6 +91,15 @@ async function main() {
 
   await browser.close();
 
+  // Daha önce çevirisi başarısız/eksik kalmış ilanları da tamamla
+  // (örn. DeepL o an erişilemezdi ya da anahtar sonradan eklendi).
+  for (const listing of listings) {
+    if (!listing.titleTr) {
+      const titleTr = await translateToTurkish(listing.title);
+      if (titleTr) listing.titleTr = titleTr;
+    }
+  }
+
   // Yeni bulunanlar için, arama sahibine tek bir özet bildirim gönder.
   for (const [searchId, items] of newBySearch) {
     const search = searches.find((s) => s.id === searchId);
