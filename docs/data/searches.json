@@ -38,5 +38,15 @@
     "ntfyTopic": null,
     "active": true,
     "createdAt": "2026-09-22T17:30:41.889Z"
+  },
+  {
+    "id": "s1790098312218",
+    "nickname": "Echterdingen",
+    "site": "immowelt",
+    "url": "https://www.immowelt.de/classified-search?distributionTypes=Rent&estateTypes=House,Apartment&locations=NBH2DE91300085&numberOfRoomsMax=5&numberOfRoomsMin=3&m=homepage_new_search_classified_search_result",
+    "owner": "Ali",
+    "ntfyTopic": null,
+    "active": true,
+    "createdAt": "2026-09-22T17:31:52.218Z"
   }
 ]
