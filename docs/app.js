@@ -279,7 +279,9 @@ async function openDetailModal(item) {
     try {
       const res = await fetch(`${WORKER_URL}/detail?site=${encodeURIComponent(item.site)}&url=${encodeURIComponent(item.url)}`);
       detail = await res.json();
-      detailCache.set(item.id, detail);
+      // Only cache real successes — a 403/transient failure shouldn't get stuck
+      // showing an error forever if the user reopens the same listing later.
+      if (detail.supported) detailCache.set(item.id, detail);
     } catch (err) {
       detail = { supported: false, reason: 'Bağlantı hatası: ' + err.message };
     }
