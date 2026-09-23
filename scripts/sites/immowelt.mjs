@@ -10,12 +10,13 @@ export async function scrape(browser, searchUrl) {
     await page.goto(searchUrl, { timeout: 30000, waitUntil: 'domcontentloaded' });
     await page.waitForSelector('[data-testid="serp-core-classified-card-testid"]', { timeout: 10000 }).catch(() => {});
 
-    // Immowelt's bot wall returns a normal 200 page (no thrown error), so an
-    // empty result silently looked like "0 matches" instead of "blocked" —
-    // check for it explicitly so status.json reports the real reason.
-    const bodyText = await page.locator('body').innerText().catch(() => '');
-    if (/temporarily restricted|unusual activity/i.test(bodyText)) {
-      throw new Error('BOT_BLOCKED: Immowelt bot koruması gösterdi');
+    // Immowelt's bot wall (DataDome) returns a normal 200 page and renders its
+    // block message inside an iframe, so checking the main document's visible
+    // text never sees it — the DataDome script tag in the page source is the
+    // only reliable signal that survives in the outer document.
+    const html = await page.content();
+    if (/captcha-delivery\.com/i.test(html)) {
+      throw new Error('BOT_BLOCKED: Immowelt bot koruması gösterdi (DataDome)');
     }
 
     const cards = await page.$$('[data-testid="serp-core-classified-card-testid"]');
