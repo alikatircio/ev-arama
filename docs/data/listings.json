@@ -600,5 +600,19 @@
     "location": "70599 Plieningen",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/79/79a80566-5172-4315-9b87-b63659ca1530?rule=$_2.AUTO",
     "firstSeenAt": "2026-09-22T17:30:04.490Z"
+  },
+  {
+    "id": "kleinanzeigen:3520654280",
+    "site": "kleinanzeigen",
+    "searchId": "s1790094439962",
+    "externalId": "3520654280",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/3-5-zimmer-dg-maisonette-100qm-filderstadt-bernhausen/3520654280-203-8892",
+    "title": "3,5 Zimmer DG-Maisonette/ 100qm/ Filderstadt-Bernhausen",
+    "titleTr": "3,5 odalı çatı katı dubleks daire / 100 m² / Filderstadt-Bernhausen",
+    "price": "1.300 €",
+    "facts": "100 m² · 3,5 Zi.",
+    "location": "70794 Filderstadt",
+    "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/6f/6f6e63df-49cd-4fe9-b36a-e6d486629d68?rule=$_2.AUTO",
+    "firstSeenAt": "2026-09-23T01:01:54.882Z"
   }
 ]
