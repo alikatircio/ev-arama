@@ -29,6 +29,10 @@
           <option value="immowelt">Immowelt</option>
           <option value="immoscout">ImmoScout24</option>
         </select>
+        <select id="price-type">
+          <option value="warm">Sıcak kira (varsa)</option>
+          <option value="cold">Soğuk kira (varsa)</option>
+        </select>
         <input type="number" id="filter-price-min" placeholder="Min €" min="0" />
         <input type="number" id="filter-price-max" placeholder="Maks €" min="0" />
         <select id="sort-order">
@@ -106,6 +110,7 @@
       <p id="modal-facts" class="card-facts"></p>
       <p id="modal-location" class="card-location"></p>
       <p id="modal-price" class="card-price"></p>
+      <p id="modal-price-breakdown" class="card-facts" hidden></p>
       <hr />
       <div id="modal-description-loading">Açıklama yükleniyor...</div>
       <p id="modal-description" class="modal-description" hidden></p>

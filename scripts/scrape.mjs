@@ -63,6 +63,17 @@ async function main() {
 
           const titleTr = await translateToTurkish(r.title);
 
+          // Only Kleinanzeigen's detail page tolerates a plain fetch (Immowelt/
+          // ImmoScout24 block it), so the Kalt-/Warmmiete breakdown is only
+          // available for this site.
+          let priceCold = null;
+          let priceWarm = null;
+          if (siteName === 'kleinanzeigen') {
+            const breakdown = await kleinanzeigen.fetchPriceBreakdown(r.url);
+            priceCold = breakdown.priceCold;
+            priceWarm = breakdown.priceWarm;
+          }
+
           const listing = {
             id: key,
             site: siteName,
@@ -72,6 +83,8 @@ async function main() {
             title: r.title,
             titleTr,
             price: r.price,
+            priceCold,
+            priceWarm,
             facts: r.facts,
             location: r.location,
             imageUrl: r.imageUrl,
@@ -97,6 +110,16 @@ async function main() {
     if (!listing.titleTr) {
       const titleTr = await translateToTurkish(listing.title);
       if (titleTr) listing.titleTr = titleTr;
+    }
+  }
+
+  // Kalt-/Warmmiete alanları bu özellik eklenmeden önce taranmış ilanlarda
+  // eksik olacağı için, sadece Kleinanzeigen'de ve sadece bir kere doldurulur.
+  for (const listing of listings) {
+    if (listing.site === 'kleinanzeigen' && listing.priceCold === undefined && listing.priceWarm === undefined) {
+      const breakdown = await kleinanzeigen.fetchPriceBreakdown(listing.url);
+      listing.priceCold = breakdown.priceCold;
+      listing.priceWarm = breakdown.priceWarm;
     }
   }
 

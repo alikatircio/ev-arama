@@ -51,3 +51,23 @@ export async function scrape(browser, searchUrl) {
   }
   return listings;
 }
+
+// Kleinanzeigen's search-card price is whatever single figure the poster chose to
+// headline (often Warmmiete, sometimes Kaltmiete). The Kalt/Warm breakdown only
+// exists on the ad's own detail page, as structured fields — plain HTTP fetch
+// works fine here (unlike Immowelt/ImmoScout24), so this is cheap to do per ad.
+export async function fetchPriceBreakdown(url) {
+  try {
+    const res = await fetch(url, { headers: { 'User-Agent': UA } });
+    if (!res.ok) return { priceCold: null, priceWarm: null };
+    const html = await res.text();
+    const cold = html.match(/Kaltmiete<span[^>]*>\s*([^<]+?)\s*<\/span>/);
+    const warm = html.match(/Warmmiete<span[^>]*>\s*([^<]+?)\s*<\/span>/);
+    return {
+      priceCold: cold ? cold[1].trim() : null,
+      priceWarm: warm ? warm[1].trim() : null,
+    };
+  } catch {
+    return { priceCold: null, priceWarm: null };
+  }
+}

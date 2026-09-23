@@ -17,6 +17,13 @@ function parsePrice(priceStr) {
   return digits ? parseInt(digits, 10) : null;
 }
 
+// Kalt-/Warmmiete only exists as a separate field for Kleinanzeigen ads that
+// filled it in — everything else falls back to the single price the card showed.
+function effectivePriceStr(item, priceType) {
+  if (priceType === 'cold') return item.priceCold || item.price;
+  return item.priceWarm || item.price;
+}
+
 async function loadData() {
   const bust = `?t=${Date.now()}`;
   const [searches, listings, status, favorites, dismissed] = await Promise.all([
@@ -195,25 +202,26 @@ function renderListings() {
   if (searchFilter) items = items.filter((i) => i.searchId === searchFilter);
   if (siteFilter) items = items.filter((i) => i.site === siteFilter);
 
+  const priceType = document.getElementById('price-type').value;
   const priceMin = parseInt(document.getElementById('filter-price-min').value, 10);
   const priceMax = parseInt(document.getElementById('filter-price-max').value, 10);
-  if (!isNaN(priceMin)) items = items.filter((i) => { const p = parsePrice(i.price); return p !== null && p >= priceMin; });
-  if (!isNaN(priceMax)) items = items.filter((i) => { const p = parsePrice(i.price); return p !== null && p <= priceMax; });
+  if (!isNaN(priceMin)) items = items.filter((i) => { const p = parsePrice(effectivePriceStr(i, priceType)); return p !== null && p >= priceMin; });
+  if (!isNaN(priceMax)) items = items.filter((i) => { const p = parsePrice(effectivePriceStr(i, priceType)); return p !== null && p <= priceMax; });
 
   const sortOrder = document.getElementById('sort-order').value;
   const byDate = (a, b) => new Date(a.firstSeenAt) - new Date(b.firstSeenAt);
   // Listings without a parseable price sort last, regardless of direction.
   const byPrice = (a, b) => {
-    const pa = parsePrice(a.price);
-    const pb = parsePrice(b.price);
+    const pa = parsePrice(effectivePriceStr(a, priceType));
+    const pb = parsePrice(effectivePriceStr(b, priceType));
     if (pa === null && pb === null) return 0;
     if (pa === null) return 1;
     if (pb === null) return -1;
     return pa - pb;
   };
   const byPriceDesc = (a, b) => {
-    const pa = parsePrice(a.price);
-    const pb = parsePrice(b.price);
+    const pa = parsePrice(effectivePriceStr(a, priceType));
+    const pb = parsePrice(effectivePriceStr(b, priceType));
     if (pa === null && pb === null) return 0;
     if (pa === null) return 1;
     if (pb === null) return -1;
@@ -322,6 +330,13 @@ async function openDetailModal(item) {
   document.getElementById('modal-price').textContent = item.price || '';
   document.getElementById('modal-link').href = item.url;
 
+  const breakdownEl = document.getElementById('modal-price-breakdown');
+  const breakdownParts = [];
+  if (item.priceCold) breakdownParts.push(`Soğuk kira: ${item.priceCold}`);
+  if (item.priceWarm) breakdownParts.push(`Sıcak kira: ${item.priceWarm}`);
+  breakdownEl.textContent = breakdownParts.join(' · ');
+  breakdownEl.hidden = breakdownParts.length === 0;
+
   const loadingEl = document.getElementById('modal-description-loading');
   const descEl = document.getElementById('modal-description');
   const toggleEl = document.getElementById('modal-lang-toggle');
@@ -394,6 +409,7 @@ function setupFilters() {
   document.getElementById('filter-search').addEventListener('change', renderListings);
   document.getElementById('filter-site').addEventListener('change', renderListings);
   document.getElementById('show-original').addEventListener('change', renderListings);
+  document.getElementById('price-type').addEventListener('change', renderListings);
   document.getElementById('filter-price-min').addEventListener('input', renderListings);
   document.getElementById('filter-price-max').addEventListener('input', renderListings);
   document.getElementById('sort-order').addEventListener('change', renderListings);

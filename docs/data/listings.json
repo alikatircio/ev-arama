@@ -11,7 +11,9 @@
     "facts": "83 m² · 5 Zi.",
     "location": "70794 Filderstadt",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/08/08651f74-a5a8-4af9-8a27-7c100653f791?rule=$_2.AUTO",
-    "firstSeenAt": "2026-09-22T16:29:51.651Z"
+    "firstSeenAt": "2026-09-22T16:29:51.651Z",
+    "priceCold": null,
+    "priceWarm": null
   },
   {
     "id": "kleinanzeigen:3519779725",
@@ -25,7 +27,9 @@
     "facts": "113 m² · 4 Zi.",
     "location": "70794 Filderstadt",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/c3/c3f3a1c5-1609-4691-a1e9-bfa9d9699ae9?rule=$_2.AUTO",
-    "firstSeenAt": "2026-09-22T16:29:51.651Z"
+    "firstSeenAt": "2026-09-22T16:29:51.651Z",
+    "priceCold": null,
+    "priceWarm": "1.990 €"
   },
   {
     "id": "kleinanzeigen:3518801135",
@@ -39,7 +43,9 @@
     "facts": "86 m² · 3 Zi.",
     "location": "70794 Filderstadt",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/b6/b679ac64-4146-41c7-9de7-274841bac051?rule=$_2.AUTO",
-    "firstSeenAt": "2026-09-22T16:29:51.651Z"
+    "firstSeenAt": "2026-09-22T16:29:51.651Z",
+    "priceCold": null,
+    "priceWarm": "1.100 €"
   },
   {
     "id": "kleinanzeigen:3514537489",
@@ -53,7 +59,9 @@
     "facts": "95 m² · 4 Zi.",
     "location": "70794 Filderstadt",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/03/034994a3-a841-4f01-8371-cd14606d04ac?rule=$_2.AUTO",
-    "firstSeenAt": "2026-09-22T16:29:51.651Z"
+    "firstSeenAt": "2026-09-22T16:29:51.651Z",
+    "priceCold": null,
+    "priceWarm": "1.500 €"
   },
   {
     "id": "kleinanzeigen:3514122385",
@@ -67,7 +75,9 @@
     "facts": "119 m² · 3,5 Zi.",
     "location": "70794 Filderstadt",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/6c/6cbbf2cc-aead-4f8e-9ac4-d3a3afe22134?rule=$_2.AUTO",
-    "firstSeenAt": "2026-09-22T16:29:51.651Z"
+    "firstSeenAt": "2026-09-22T16:29:51.651Z",
+    "priceCold": null,
+    "priceWarm": null
   },
   {
     "id": "kleinanzeigen:3513846102",
@@ -81,7 +91,9 @@
     "facts": "80 m² · 3 Zi.",
     "location": "70794 Filderstadt",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ce/ce20fc93-cec5-4634-a8dc-60eec6ced312?rule=$_2.AUTO",
-    "firstSeenAt": "2026-09-22T16:29:51.651Z"
+    "firstSeenAt": "2026-09-22T16:29:51.651Z",
+    "priceCold": null,
+    "priceWarm": "1.740 €"
   },
   {
     "id": "kleinanzeigen:3513366741",
@@ -95,7 +107,9 @@
     "facts": "100 m² · 3,5 Zi.",
     "location": "70794 Filderstadt",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/0c/0c563e2f-4325-4e97-9bef-3b61311c2e4c?rule=$_2.AUTO",
-    "firstSeenAt": "2026-09-22T16:29:51.651Z"
+    "firstSeenAt": "2026-09-22T16:29:51.651Z",
+    "priceCold": null,
+    "priceWarm": "1.595 €"
   },
   {
     "id": "kleinanzeigen:3511042269",
@@ -109,7 +123,9 @@
     "facts": "92 m² · 3 Zi.",
     "location": "70794 Filderstadt",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/8b/8b168de0-b648-4bbf-bbcf-6c185163de11?rule=$_2.AUTO",
-    "firstSeenAt": "2026-09-22T16:29:51.651Z"
+    "firstSeenAt": "2026-09-22T16:29:51.651Z",
+    "priceCold": null,
+    "priceWarm": null
   },
   {
     "id": "kleinanzeigen:3510089915",
@@ -123,7 +139,9 @@
     "facts": "117 m² · 4 Zi.",
     "location": "70794 Filderstadt",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/aa/aa344afd-20e8-4764-bcb5-b16a37e82874?rule=$_2.AUTO",
-    "firstSeenAt": "2026-09-22T16:29:51.651Z"
+    "firstSeenAt": "2026-09-22T16:29:51.651Z",
+    "priceCold": null,
+    "priceWarm": "2.300 €"
   },
   {
     "id": "kleinanzeigen:3509031947",
@@ -137,7 +155,9 @@
     "facts": "117 m² · 4 Zi.",
     "location": "70794 Filderstadt",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ca/cadbcb49-c213-458a-b2a7-f055c57839cf?rule=$_2.AUTO",
-    "firstSeenAt": "2026-09-22T16:29:51.651Z"
+    "firstSeenAt": "2026-09-22T16:29:51.651Z",
+    "priceCold": null,
+    "priceWarm": null
   },
   {
     "id": "kleinanzeigen:3506628580",
@@ -151,7 +171,9 @@
     "facts": "84 m² · 4 Zi.",
     "location": "70794 Filderstadt",
     "imageUrl": null,
-    "firstSeenAt": "2026-09-22T16:29:51.651Z"
+    "firstSeenAt": "2026-09-22T16:29:51.651Z",
+    "priceCold": null,
+    "priceWarm": null
   },
   {
     "id": "kleinanzeigen:3499631613",
@@ -165,7 +187,9 @@
     "facts": "100 m² · 3,5 Zi.",
     "location": "70794 Filderstadt",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/b0/b003dc6b-d04e-4cc1-882a-de0df6d613ae?rule=$_2.AUTO",
-    "firstSeenAt": "2026-09-22T16:29:51.651Z"
+    "firstSeenAt": "2026-09-22T16:29:51.651Z",
+    "priceCold": null,
+    "priceWarm": "1.550 €"
   },
   {
     "id": "kleinanzeigen:3496787457",
@@ -179,7 +203,9 @@
     "facts": "145 m² · 5 Zi.",
     "location": "70794 Filderstadt",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/c4/c4101ca8-a475-4caf-bfe3-d6fac2288118?rule=$_2.AUTO",
-    "firstSeenAt": "2026-09-22T16:29:51.651Z"
+    "firstSeenAt": "2026-09-22T16:29:51.651Z",
+    "priceCold": null,
+    "priceWarm": null
   },
   {
     "id": "kleinanzeigen:3493318493",
@@ -193,7 +219,9 @@
     "facts": "97 m² · 4 Zi.",
     "location": "70794 Filderstadt",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/dc/dc108143-4ba9-4e68-a418-359ec021b926?rule=$_2.AUTO",
-    "firstSeenAt": "2026-09-22T16:29:51.651Z"
+    "firstSeenAt": "2026-09-22T16:29:51.651Z",
+    "priceCold": null,
+    "priceWarm": "1.550 €"
   },
   {
     "id": "kleinanzeigen:3491187795",
@@ -207,7 +235,9 @@
     "facts": "113,80 m² · 4 Zi.",
     "location": "70794 Filderstadt",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/9c/9c021c29-6094-4735-9ae7-47773f52af73?rule=$_2.AUTO",
-    "firstSeenAt": "2026-09-22T16:29:51.651Z"
+    "firstSeenAt": "2026-09-22T16:29:51.651Z",
+    "priceCold": null,
+    "priceWarm": null
   },
   {
     "id": "kleinanzeigen:3485817743",
@@ -221,7 +251,9 @@
     "facts": "94 m² · 4 Zi.",
     "location": "70794 Filderstadt",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/e5/e57360ff-6323-46b9-bd60-019bc6a4adb5?rule=$_2.AUTO",
-    "firstSeenAt": "2026-09-22T16:29:51.651Z"
+    "firstSeenAt": "2026-09-22T16:29:51.651Z",
+    "priceCold": null,
+    "priceWarm": null
   },
   {
     "id": "kleinanzeigen:3477448374",
@@ -235,7 +267,9 @@
     "facts": "75 m² · 3 Zi.",
     "location": "70794 Filderstadt",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/13/13e19b26-cae4-4edd-b6c8-957346332b63?rule=$_2.AUTO",
-    "firstSeenAt": "2026-09-22T16:29:51.651Z"
+    "firstSeenAt": "2026-09-22T16:29:51.651Z",
+    "priceCold": null,
+    "priceWarm": null
   },
   {
     "id": "kleinanzeigen:3477268361",
@@ -249,7 +283,9 @@
     "facts": "90 m² · 3 Zi.",
     "location": "70794 Filderstadt",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/15/15be53b1-c66a-46f8-82b8-9d4e0a041925?rule=$_2.AUTO",
-    "firstSeenAt": "2026-09-22T16:29:51.651Z"
+    "firstSeenAt": "2026-09-22T16:29:51.651Z",
+    "priceCold": null,
+    "priceWarm": "1.980 €"
   },
   {
     "id": "kleinanzeigen:3476461476",
@@ -263,7 +299,9 @@
     "facts": "75 m² · 3 Zi.",
     "location": "70794 Filderstadt",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ac/ac7f059b-2d04-47f2-a502-a3eb6a7932b8?rule=$_2.AUTO",
-    "firstSeenAt": "2026-09-22T16:29:51.651Z"
+    "firstSeenAt": "2026-09-22T16:29:51.651Z",
+    "priceCold": null,
+    "priceWarm": "1.040 €"
   },
   {
     "id": "kleinanzeigen:3467432699",
@@ -277,7 +315,9 @@
     "facts": "117,50 m² · 3 Zi.",
     "location": "70794 Filderstadt",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/f2/f289a783-f57c-4e7c-8ee9-228fcce31aa0?rule=$_2.AUTO",
-    "firstSeenAt": "2026-09-22T16:29:51.651Z"
+    "firstSeenAt": "2026-09-22T16:29:51.651Z",
+    "priceCold": null,
+    "priceWarm": null
   },
   {
     "id": "kleinanzeigen:3516496786",
@@ -291,7 +331,9 @@
     "facts": "115,50 m² · 3 Zi.",
     "location": "70771 Leinfelden-Echterdingen",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/d1/d13e5120-07b3-416e-988f-d43883cbce3a?rule=$_1.AUTO",
-    "firstSeenAt": "2026-09-22T17:20:10.641Z"
+    "firstSeenAt": "2026-09-22T17:20:10.641Z",
+    "priceCold": null,
+    "priceWarm": null
   },
   {
     "id": "kleinanzeigen:3509042568",
@@ -305,7 +347,9 @@
     "facts": "103 m² · 4 Zi.",
     "location": "70771 Leinfelden-Echterdingen",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/d0/d0ab6c21-d73f-4191-8e45-4ecae29f3306?rule=$_1.AUTO",
-    "firstSeenAt": "2026-09-22T17:20:10.641Z"
+    "firstSeenAt": "2026-09-22T17:20:10.641Z",
+    "priceCold": null,
+    "priceWarm": "2.099 €"
   },
   {
     "id": "kleinanzeigen:3498392350",
@@ -319,7 +363,9 @@
     "facts": "130 m² · 4 Zi.",
     "location": "70771 Leinfelden-Echterdingen",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/5d/5dbae692-2296-45bf-8b6c-c35bafe58226?rule=$_1.AUTO",
-    "firstSeenAt": "2026-09-22T17:20:10.641Z"
+    "firstSeenAt": "2026-09-22T17:20:10.641Z",
+    "priceCold": null,
+    "priceWarm": null
   },
   {
     "id": "kleinanzeigen:3420887174",
@@ -333,7 +379,9 @@
     "facts": "80 m² · 3 Zi.",
     "location": "70565 Fasanenhof",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/b6/b6780f9e-8a12-47cb-942f-5b469a94f42c?rule=$_1.AUTO",
-    "firstSeenAt": "2026-09-22T17:20:10.641Z"
+    "firstSeenAt": "2026-09-22T17:20:10.641Z",
+    "priceCold": null,
+    "priceWarm": "1.350 €"
   },
   {
     "id": "kleinanzeigen:3520412768",
@@ -347,7 +395,9 @@
     "facts": "80 m² · 3 Zi.",
     "location": "70565 Fasanenhof",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/d1/d18fd784-c226-4c91-8140-2ed65319c039?rule=$_2.AUTO",
-    "firstSeenAt": "2026-09-22T17:20:10.641Z"
+    "firstSeenAt": "2026-09-22T17:20:10.641Z",
+    "priceCold": null,
+    "priceWarm": null
   },
   {
     "id": "kleinanzeigen:3520310698",
@@ -361,7 +411,9 @@
     "facts": "70 m² · 3 Zi. · Online-Besichtigung",
     "location": "70599 Plieningen",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/c2/c2838652-7e0d-44de-8a67-67da0da329e9?rule=$_2.AUTO",
-    "firstSeenAt": "2026-09-22T17:20:10.641Z"
+    "firstSeenAt": "2026-09-22T17:20:10.641Z",
+    "priceCold": null,
+    "priceWarm": "1.450 €"
   },
   {
     "id": "kleinanzeigen:3519410512",
@@ -375,7 +427,9 @@
     "facts": "67 m² · 3 Zi. · Online-Besichtigung",
     "location": "73760 Ostfildern",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/39/39aedd66-b9f6-4104-82fb-ebd64b0c1904?rule=$_2.AUTO",
-    "firstSeenAt": "2026-09-22T17:20:10.641Z"
+    "firstSeenAt": "2026-09-22T17:20:10.641Z",
+    "priceCold": null,
+    "priceWarm": "1.030 €"
   },
   {
     "id": "kleinanzeigen:3519391153",
@@ -389,7 +443,9 @@
     "facts": "71 m² · 4 Zi.",
     "location": "70565 Fasanenhof",
     "imageUrl": null,
-    "firstSeenAt": "2026-09-22T17:20:10.641Z"
+    "firstSeenAt": "2026-09-22T17:20:10.641Z",
+    "priceCold": null,
+    "priceWarm": null
   },
   {
     "id": "kleinanzeigen:3516824048",
@@ -403,7 +459,9 @@
     "facts": "89 m² · 3 Zi.",
     "location": "70771 Leinfelden-Echterdingen",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/f1/f194b295-dad4-48e6-a87d-d4c496c53dcb?rule=$_2.AUTO",
-    "firstSeenAt": "2026-09-22T17:20:10.641Z"
+    "firstSeenAt": "2026-09-22T17:20:10.641Z",
+    "priceCold": null,
+    "priceWarm": "1.550 €"
   },
   {
     "id": "kleinanzeigen:3516563914",
@@ -417,7 +475,9 @@
     "facts": "77 m² · 5 Zi. · Online-Besichtigung",
     "location": "70771 Leinfelden-Echterdingen",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/19/19661e41-e864-43f3-9f23-0f95653042de?rule=$_2.AUTO",
-    "firstSeenAt": "2026-09-22T17:20:10.641Z"
+    "firstSeenAt": "2026-09-22T17:20:10.641Z",
+    "priceCold": null,
+    "priceWarm": null
   },
   {
     "id": "kleinanzeigen:3516562568",
@@ -431,7 +491,9 @@
     "facts": "77 m² · 5 Zi. · Online-Besichtigung",
     "location": "70771 Leinfelden-Echterdingen",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/19/19661e41-e864-43f3-9f23-0f95653042de?rule=$_2.AUTO",
-    "firstSeenAt": "2026-09-22T17:20:10.641Z"
+    "firstSeenAt": "2026-09-22T17:20:10.641Z",
+    "priceCold": null,
+    "priceWarm": null
   },
   {
     "id": "kleinanzeigen:3516475412",
@@ -445,7 +507,9 @@
     "facts": "103 m² · 4 Zi.",
     "location": "70599 Birkach",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ab/ab87eb01-6992-43b0-b0e7-3c463ce8defb?rule=$_2.AUTO",
-    "firstSeenAt": "2026-09-22T17:20:10.641Z"
+    "firstSeenAt": "2026-09-22T17:20:10.641Z",
+    "priceCold": null,
+    "priceWarm": "2.490 €"
   },
   {
     "id": "kleinanzeigen:3515450957",
@@ -459,7 +523,9 @@
     "facts": "80 m² · 3 Zi. · Online-Besichtigung",
     "location": "70771 Leinfelden-Echterdingen",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/c4/c453c0a9-f931-4ce2-92c9-3188cda273ed?rule=$_2.AUTO",
-    "firstSeenAt": "2026-09-22T17:20:10.641Z"
+    "firstSeenAt": "2026-09-22T17:20:10.641Z",
+    "priceCold": null,
+    "priceWarm": "1.550 €"
   },
   {
     "id": "kleinanzeigen:3514409041",
@@ -473,7 +539,9 @@
     "facts": "79 m² · 3 Zi.",
     "location": "70771 Leinfelden-Echterdingen",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/d4/d4ba274d-ec41-4d9a-bb2a-dbddab080d03?rule=$_2.AUTO",
-    "firstSeenAt": "2026-09-22T17:20:10.641Z"
+    "firstSeenAt": "2026-09-22T17:20:10.641Z",
+    "priceCold": null,
+    "priceWarm": "1.140 €"
   },
   {
     "id": "kleinanzeigen:3513598961",
@@ -487,7 +555,9 @@
     "facts": "126 m² · 3 Zi.",
     "location": "70771 Leinfelden-Echterdingen",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/b8/b8f9da6c-57a3-4578-a14f-0a94b5421380?rule=$_2.AUTO",
-    "firstSeenAt": "2026-09-22T17:20:10.641Z"
+    "firstSeenAt": "2026-09-22T17:20:10.641Z",
+    "priceCold": null,
+    "priceWarm": "2.400 €"
   },
   {
     "id": "kleinanzeigen:3511912953",
@@ -501,7 +571,9 @@
     "facts": "70 m² · 3 Zi.",
     "location": "70771 Leinfelden-Echterdingen",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/4d/4d4015e6-7d46-4407-a48f-c02ff020620f?rule=$_2.AUTO",
-    "firstSeenAt": "2026-09-22T17:20:10.641Z"
+    "firstSeenAt": "2026-09-22T17:20:10.641Z",
+    "priceCold": null,
+    "priceWarm": "1.550 €"
   },
   {
     "id": "kleinanzeigen:3510623057",
@@ -515,7 +587,9 @@
     "facts": "76 m² · 3 Zi.",
     "location": "70771 Leinfelden-Echterdingen",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/cc/cc7cf8e7-7ca1-40f7-8b8b-6c6490e9b807?rule=$_2.AUTO",
-    "firstSeenAt": "2026-09-22T17:20:10.641Z"
+    "firstSeenAt": "2026-09-22T17:20:10.641Z",
+    "priceCold": null,
+    "priceWarm": "1.550 €"
   },
   {
     "id": "kleinanzeigen:3510123328",
@@ -529,7 +603,9 @@
     "facts": "74 m² · 3 Zi.",
     "location": "70771 Leinfelden-Echterdingen",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/eb/eb685d62-2953-4ce6-abb0-04ea1a94e1b7?rule=$_2.AUTO",
-    "firstSeenAt": "2026-09-22T17:20:10.641Z"
+    "firstSeenAt": "2026-09-22T17:20:10.641Z",
+    "priceCold": null,
+    "priceWarm": "1.515 €"
   },
   {
     "id": "kleinanzeigen:3508834329",
@@ -543,7 +619,9 @@
     "facts": "75 m² · 3 Zi.",
     "location": "70565 Fasanenhof",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/2c/2cc32bc2-7a98-49a9-bd31-c1ba5e9daa49?rule=$_2.AUTO",
-    "firstSeenAt": "2026-09-22T17:20:10.641Z"
+    "firstSeenAt": "2026-09-22T17:20:10.641Z",
+    "priceCold": null,
+    "priceWarm": "1.600 €"
   },
   {
     "id": "kleinanzeigen:3506004790",
@@ -557,7 +635,9 @@
     "facts": "88,50 m² · 3 Zi.",
     "location": "70771 Leinfelden-Echterdingen",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/52/521593a6-539b-4e0c-81b3-ae3ea5291b3c?rule=$_2.AUTO",
-    "firstSeenAt": "2026-09-22T17:20:10.641Z"
+    "firstSeenAt": "2026-09-22T17:20:10.641Z",
+    "priceCold": null,
+    "priceWarm": null
   },
   {
     "id": "kleinanzeigen:3456025133",
@@ -571,7 +651,9 @@
     "facts": "67 m² · 3,5 Zi.",
     "location": "70771 Leinfelden-Echterdingen",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/e9/e95cbebf-d206-46e2-a1fb-b669644db654?rule=$_2.AUTO",
-    "firstSeenAt": "2026-09-22T17:20:10.641Z"
+    "firstSeenAt": "2026-09-22T17:20:10.641Z",
+    "priceCold": null,
+    "priceWarm": null
   },
   {
     "id": "kleinanzeigen:3500031994",
@@ -585,7 +667,9 @@
     "facts": "70 m² · 3 Zi.",
     "location": "70771 Leinfelden-Echterdingen",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/76/762ed448-f398-4232-b694-a5e7515ad34f?rule=$_2.AUTO",
-    "firstSeenAt": "2026-09-22T17:20:10.641Z"
+    "firstSeenAt": "2026-09-22T17:20:10.641Z",
+    "priceCold": null,
+    "priceWarm": "1.100 €"
   },
   {
     "id": "kleinanzeigen:3501369197",
@@ -599,7 +683,9 @@
     "facts": "75 m² · 3,5 Zi.",
     "location": "70599 Plieningen",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/79/79a80566-5172-4315-9b87-b63659ca1530?rule=$_2.AUTO",
-    "firstSeenAt": "2026-09-22T17:30:04.490Z"
+    "firstSeenAt": "2026-09-22T17:30:04.490Z",
+    "priceCold": null,
+    "priceWarm": null
   },
   {
     "id": "kleinanzeigen:3520654280",
@@ -613,6 +699,8 @@
     "facts": "100 m² · 3,5 Zi.",
     "location": "70794 Filderstadt",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/6f/6f6e63df-49cd-4fe9-b36a-e6d486629d68?rule=$_2.AUTO",
-    "firstSeenAt": "2026-09-23T01:01:54.882Z"
+    "firstSeenAt": "2026-09-23T01:01:54.882Z",
+    "priceCold": null,
+    "priceWarm": "1.595 €"
   }
 ]
