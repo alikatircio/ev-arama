@@ -30,23 +30,13 @@
     "createdAt": "2026-09-22T17:29:10.311Z"
   },
   {
-    "id": "s1790098241889",
-    "nickname": "Filderstadt daire",
+    "id": "s1790099999001",
+    "nickname": "Filderstadt + Echterdingen + Leinfelden",
     "site": "immowelt",
-    "url": "https://www.immowelt.de/classified-search?distributionTypes=Rent&estateTypes=House,Apartment&locations=NBH2DE11868&numberOfRoomsMax=5&numberOfRoomsMin=3&m=homepage_new_search_classified_search_result",
+    "url": "https://www.immowelt.de/classified-search?distributionTypes=Rent&estateTypes=House,Apartment&locations=NBH2DE11868,NBH2DE91300085,NBH2DE91300084&numberOfRoomsMax=5&numberOfRoomsMin=3&order=PriceAsc&m=homepage_new_search_classified_search_result",
     "owner": "Ali",
     "ntfyTopic": null,
     "active": true,
-    "createdAt": "2026-09-22T17:30:41.889Z"
-  },
-  {
-    "id": "s1790098312218",
-    "nickname": "Leinfelden - Echterdingen",
-    "site": "immowelt",
-    "url": "https://www.immowelt.de/classified-search?distributionTypes=Rent&estateTypes=House,Apartment&locations=AD08DE5274&numberOfRoomsMax=5&numberOfRoomsMin=3&m=homepage_new_search_classified_search_result",
-    "owner": "Ali",
-    "ntfyTopic": null,
-    "active": true,
-    "createdAt": "2026-09-22T17:31:52.218Z"
+    "createdAt": "2026-09-23T12:40:00.000Z"
   }
 ]
