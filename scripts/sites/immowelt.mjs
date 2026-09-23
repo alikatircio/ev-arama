@@ -10,6 +10,14 @@ export async function scrape(browser, searchUrl) {
     await page.goto(searchUrl, { timeout: 30000, waitUntil: 'domcontentloaded' });
     await page.waitForSelector('[data-testid="serp-core-classified-card-testid"]', { timeout: 10000 }).catch(() => {});
 
+    // Immowelt's bot wall returns a normal 200 page (no thrown error), so an
+    // empty result silently looked like "0 matches" instead of "blocked" —
+    // check for it explicitly so status.json reports the real reason.
+    const bodyText = await page.locator('body').innerText().catch(() => '');
+    if (/temporarily restricted|unusual activity/i.test(bodyText)) {
+      throw new Error('BOT_BLOCKED: Immowelt bot koruması gösterdi');
+    }
+
     const cards = await page.$$('[data-testid="serp-core-classified-card-testid"]');
     for (const card of cards) {
       const id = await card.getAttribute('id');
