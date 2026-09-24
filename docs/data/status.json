@@ -1,11 +1,11 @@
 {
   "kleinanzeigen": {
-    "lastAttempt": "2026-09-24T00:58:31.441Z",
-    "lastSuccess": "2026-09-24T00:58:31.441Z",
+    "lastAttempt": "2026-09-24T15:40:43.830Z",
+    "lastSuccess": "2026-09-24T15:40:43.830Z",
     "lastError": null
   },
   "immowelt": {
-    "lastAttempt": "2026-09-24T01:00:08.175Z",
+    "lastAttempt": "2026-09-24T15:42:20.663Z",
     "lastSuccess": "2026-09-23T12:21:53.695Z",
     "lastError": "BOT_BLOCKED: Immowelt bot koruması gösterdi (DataDome)"
   },
