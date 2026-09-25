@@ -766,5 +766,21 @@
     "location": "70771 Leinfelden-Echterdingen",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/0b/0b48ecdb-11bd-441b-9934-59a9629c7783?rule=$_2.AUTO",
     "firstSeenAt": "2026-09-23T12:20:12.595Z"
+  },
+  {
+    "id": "kleinanzeigen:3522722890",
+    "site": "kleinanzeigen",
+    "searchId": "s1790098150311",
+    "externalId": "3522722890",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/helle-3-5-zimmer-dg-wohnung-mit-10-m2-balkon-in-stuttgart/3522722890-203-9602",
+    "title": "Helle 3,5-Zimmer-DG-Wohnung mit 10 m2 Balkon in Stuttgart",
+    "titleTr": "Stuttgart'ta, 10 m²'lik balkonu olan aydınlık 3,5 odalı çatı katı daire",
+    "price": "950 €",
+    "priceCold": null,
+    "priceWarm": "1.200 €",
+    "facts": "68 m² · 3,5 Zi. · Online-Besichtigung",
+    "location": "70599 Plieningen",
+    "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/f3/f30eaa38-2a6b-40d7-b66a-db46c13c2da8?rule=$_2.AUTO",
+    "firstSeenAt": "2026-09-25T15:42:41.301Z"
   }
 ]
