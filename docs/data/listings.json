@@ -814,5 +814,53 @@
     "location": "70565 Möhringen",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/41/4175c1cb-a907-4cba-ae97-d57f42f758db?rule=$_2.AUTO",
     "firstSeenAt": "2026-09-28T01:17:01.434Z"
+  },
+  {
+    "id": "kleinanzeigen:3525842204",
+    "site": "kleinanzeigen",
+    "searchId": "s1790097551950",
+    "externalId": "3525842204",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/-penthouse-traum-mit-schoenem-fernblick-/3525842204-203-8453",
+    "title": "++ Penthouse-Traum mit schönem Fernblick ++",
+    "titleTr": "++ Muhteşem manzara sunan rüya gibi bir çatı katı daire ++",
+    "price": "1.495 €",
+    "priceCold": null,
+    "priceWarm": "1.770 €",
+    "facts": "102 m² · 4 Zi.",
+    "location": "70771 Leinfelden-Echterdingen",
+    "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/0b/0b69b8f7-1bfb-44ba-b9ef-2bb603a6b089?rule=$_2.AUTO",
+    "firstSeenAt": "2026-09-28T18:21:07.654Z"
+  },
+  {
+    "id": "kleinanzeigen:3525540667",
+    "site": "kleinanzeigen",
+    "searchId": "s1790098150311",
+    "externalId": "3525540667",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/gewerbewohnung-buero-stuttgart-plieningen-133qm-nur-gewerblich-/3525540667-203-9602",
+    "title": "Gewerbewohnung, Büro, Stuttgart Plieningen 133qm. Nur Gewerblich.",
+    "titleTr": "Ticari amaçlı daire, ofis, Stuttgart Plieningen, 133 m². Yalnızca ticari kullanım için.",
+    "price": "1.350 €",
+    "priceCold": null,
+    "priceWarm": null,
+    "facts": "133 m² · 4 Zi.",
+    "location": "70599 Plieningen",
+    "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/2d/2d7b65dd-e9f1-454f-9ad0-5258162ab828?rule=$_2.AUTO",
+    "firstSeenAt": "2026-09-28T18:21:07.654Z"
+  },
+  {
+    "id": "kleinanzeigen:3525526289",
+    "site": "kleinanzeigen",
+    "searchId": "s1790098150311",
+    "externalId": "3525526289",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/modernes-wohnen-in-plieningen-sanierte-3-5-zi-wohnung-mit-neuer-einbaukueche/3525526289-203-9602",
+    "title": "Modernes Wohnen in Plieningen – sanierte 3,5-Zi-Wohnung mit neuer Einbauküche",
+    "titleTr": "Plieningen’de modern yaşam – yenilenmiş, 3,5 odalı daire ve yeni gömme mutfak",
+    "price": "1.190 €",
+    "priceCold": null,
+    "priceWarm": null,
+    "facts": "90 m² · 3,5 Zi.",
+    "location": "70599 Plieningen",
+    "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/dd/dd28e60b-6e7c-4fa5-8d9b-4238dfb6ce1b?rule=$_2.AUTO",
+    "firstSeenAt": "2026-09-28T18:21:07.654Z"
   }
 ]
