@@ -782,5 +782,37 @@
     "location": "70599 Plieningen",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/f3/f30eaa38-2a6b-40d7-b66a-db46c13c2da8?rule=$_2.AUTO",
     "firstSeenAt": "2026-09-25T15:42:41.301Z"
+  },
+  {
+    "id": "kleinanzeigen:3525159206",
+    "site": "kleinanzeigen",
+    "searchId": "s1790094439962",
+    "externalId": "3525159206",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/3-zimmer-wohnung-eg-fi-sielmingen/3525159206-203-8892",
+    "title": "3- Zimmer Wohnung EG Fi-Sielmingen",
+    "titleTr": "Fi-Sielmingen'de zemin katta 3 odalı daire",
+    "price": "1.000 €",
+    "priceCold": null,
+    "priceWarm": null,
+    "facts": "92 m² · 3 Zi.",
+    "location": "70794 Filderstadt",
+    "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/41/41d0e071-9796-4309-861d-9a63fb80117f?rule=$_2.AUTO",
+    "firstSeenAt": "2026-09-28T01:17:01.434Z"
+  },
+  {
+    "id": "kleinanzeigen:3525298680",
+    "site": "kleinanzeigen",
+    "searchId": "s1790097551950",
+    "externalId": "3525298680",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/kernsanierte-3-zimmer-wohnung-mit-balkon-und-panoramablick/3525298680-203-9302",
+    "title": "Kernsanierte 3-Zimmer-Wohnung mit Balkon und Panoramablick",
+    "titleTr": "Balkonlu ve panoramik manzaralı, baştan sona yenilenmiş 3 odalı daire",
+    "price": "980 €",
+    "priceCold": null,
+    "priceWarm": "1.130 €",
+    "facts": "54 m² · 3 Zi.",
+    "location": "70565 Möhringen",
+    "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/41/4175c1cb-a907-4cba-ae97-d57f42f758db?rule=$_2.AUTO",
+    "firstSeenAt": "2026-09-28T01:17:01.434Z"
   }
 ]
