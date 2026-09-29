@@ -862,5 +862,21 @@
     "location": "70599 Plieningen",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/dd/dd28e60b-6e7c-4fa5-8d9b-4238dfb6ce1b?rule=$_2.AUTO",
     "firstSeenAt": "2026-09-28T18:21:07.654Z"
+  },
+  {
+    "id": "kleinanzeigen:3501301538",
+    "site": "kleinanzeigen",
+    "searchId": "s1790094439962",
+    "externalId": "3501301538",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/berufstaetiges-ehepaar-sucht-wohnung-zum-wohlfuehlen-/3501301538-203-8892",
+    "title": "Berufstätiges Ehepaar sucht Wohnung zum Wohlfühlen!",
+    "titleTr": "Çalışan bir çift, kendilerini rahat hissedecekleri bir daire arıyor!",
+    "price": "1.300 €",
+    "priceCold": null,
+    "priceWarm": "1.300 €",
+    "facts": "Gesuch · 75 m² · 3 Zi.",
+    "location": "70794 Filderstadt",
+    "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/69/699a65a6-df1a-431b-ac8f-3f17d92df64c?rule=$_2.AUTO",
+    "firstSeenAt": "2026-09-29T16:43:56.390Z"
   }
 ]
