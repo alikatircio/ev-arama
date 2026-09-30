@@ -878,5 +878,53 @@
     "location": "70794 Filderstadt",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/69/699a65a6-df1a-431b-ac8f-3f17d92df64c?rule=$_2.AUTO",
     "firstSeenAt": "2026-09-29T16:43:56.390Z"
+  },
+  {
+    "id": "kleinanzeigen:3527524736",
+    "site": "kleinanzeigen",
+    "searchId": "s1790094439962",
+    "externalId": "3527524736",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/3-5-zimmer-dg-wohnung/3527524736-203-8892",
+    "title": "3,5 Zimmer DG Wohnung",
+    "titleTr": "3,5 odalı çatı katı daire",
+    "price": "1.350 €",
+    "priceCold": null,
+    "priceWarm": "1.350 €",
+    "facts": "94 m² · 3,5 Zi.",
+    "location": "70794 Filderstadt",
+    "imageUrl": null,
+    "firstSeenAt": "2026-09-30T16:37:32.677Z"
+  },
+  {
+    "id": "kleinanzeigen:3527269772",
+    "site": "kleinanzeigen",
+    "searchId": "s1790097551950",
+    "externalId": "3527269772",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/renovierte-3-zimmer-wohnung-mit-balkon-s-bahn-1-min-u-bahn-5/3527269772-203-8453",
+    "title": "Renovierte 3-Zimmer-Wohnung mit Balkon | S-Bahn 1 Min. | U-Bahn 5",
+    "titleTr": "Balkonlu, yenilenmiş 3 odalı daire | S-Bahn’a 1 dakika | Metro’ya 5 dakika",
+    "price": "1.360 €",
+    "priceCold": null,
+    "priceWarm": "1.620 €",
+    "facts": "80 m² · 3 Zi.",
+    "location": "70771 Leinfelden-Echterdingen",
+    "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/60/60950fb2-b150-455d-80c7-8f8c6a74ec77?rule=$_2.AUTO",
+    "firstSeenAt": "2026-09-30T16:37:32.677Z"
+  },
+  {
+    "id": "kleinanzeigen:3527244074",
+    "site": "kleinanzeigen",
+    "searchId": "s1790097551950",
+    "externalId": "3527244074",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/moeblierte-3zi-wohnung-stuttgart-fasanenhof/3527244074-203-29794",
+    "title": "Möblierte 3Zi-Wohnung Stuttgart Fasanenhof",
+    "titleTr": "Stuttgart Fasanenhof'ta mobilyalı 3 odalı daire",
+    "price": "1.300 €",
+    "priceCold": null,
+    "priceWarm": "1.600 €",
+    "facts": "75 m² · 3 Zi.",
+    "location": "70565 Fasanenhof",
+    "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/07/07a3456a-b0b4-4e7b-b954-3a5c27483395?rule=$_2.AUTO",
+    "firstSeenAt": "2026-09-30T16:37:32.677Z"
   }
 ]
