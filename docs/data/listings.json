@@ -926,5 +926,37 @@
     "location": "70565 Fasanenhof",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/07/07a3456a-b0b4-4e7b-b954-3a5c27483395?rule=$_2.AUTO",
     "firstSeenAt": "2026-09-30T16:37:32.677Z"
+  },
+  {
+    "id": "kleinanzeigen:3527612333",
+    "site": "kleinanzeigen",
+    "searchId": "s1790094439962",
+    "externalId": "3527612333",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/3-5-zi-wohnung-in-bernhausen-zu-vermieten/3527612333-203-8892",
+    "title": "3,5 Zi Wohnung in Bernhausen zu vermieten",
+    "titleTr": "Bernhausen’da 3,5 odalı daire kiralık",
+    "price": "1.595 €",
+    "priceCold": null,
+    "priceWarm": "1.595 €",
+    "facts": "115 m² · 3,5 Zi.",
+    "location": "70794 Filderstadt",
+    "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/72/723ca161-a15d-461d-a51d-51d09aba6782?rule=$_2.AUTO",
+    "firstSeenAt": "2026-10-01T01:40:02.020Z"
+  },
+  {
+    "id": "kleinanzeigen:3527622749",
+    "site": "kleinanzeigen",
+    "searchId": "s1790097551950",
+    "externalId": "3527622749",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/3-5-zimmer-altbau-wohnung-im-historischen-ortskern-echterdingen/3527622749-203-8453",
+    "title": "3,5 Zimmer Altbau-Wohnung im historischen Ortskern Echterdingen",
+    "titleTr": "Echterdingen’in tarihi merkezinde bulunan 3,5 odalı eski bir apartman dairesi",
+    "price": "1.350 €",
+    "priceCold": null,
+    "priceWarm": null,
+    "facts": "105 m² · 3,5 Zi.",
+    "location": "70771 Leinfelden-Echterdingen",
+    "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/c4/c49688ba-5b4d-4544-872d-2a12c3112efb?rule=$_2.AUTO",
+    "firstSeenAt": "2026-10-01T01:40:02.020Z"
   }
 ]
