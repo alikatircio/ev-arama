@@ -958,5 +958,37 @@
     "location": "70771 Leinfelden-Echterdingen",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/c4/c49688ba-5b4d-4544-872d-2a12c3112efb?rule=$_2.AUTO",
     "firstSeenAt": "2026-10-01T01:40:02.020Z"
+  },
+  {
+    "id": "kleinanzeigen:3527859782",
+    "site": "kleinanzeigen",
+    "searchId": "s1790094439962",
+    "externalId": "3527859782",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/helle-dg-maisonettwohnung-filderstadt-bernhausen/3527859782-203-8892",
+    "title": "Helle DG Maisonettwohnung Filderstadt Bernhausen",
+    "titleTr": "Aydınlık çatı katı dubleks daire, Filderstadt Bernhausen",
+    "price": "1.250 €",
+    "priceCold": null,
+    "priceWarm": null,
+    "facts": "95 m² · 3 Zi.",
+    "location": "70794 Filderstadt",
+    "imageUrl": null,
+    "firstSeenAt": "2026-10-01T17:14:08.720Z"
+  },
+  {
+    "id": "kleinanzeigen:3528120363",
+    "site": "kleinanzeigen",
+    "searchId": "s1790097551950",
+    "externalId": "3528120363",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/neuwertige-4-zimmer-maisonette-wohnung-garage-in-echterdingen/3528120363-203-8453",
+    "title": "Neuwertige 4-Zimmer-Maisonette-Wohnung + Garage in Echterdingen",
+    "titleTr": "Echterdingen’de, neredeyse yeni sayılabilecek 4 odalı dubleks daire + garaj",
+    "price": "1.830 €",
+    "priceCold": null,
+    "priceWarm": null,
+    "facts": "130 m² · 4 Zi.",
+    "location": "70771 Leinfelden-Echterdingen",
+    "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/c7/c7e56334-9616-458f-b4d4-d4df8bee34e2?rule=$_1.AUTO",
+    "firstSeenAt": "2026-10-01T17:14:08.720Z"
   }
 ]
