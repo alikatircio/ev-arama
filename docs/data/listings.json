@@ -990,5 +990,37 @@
     "location": "70771 Leinfelden-Echterdingen",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/c7/c7e56334-9616-458f-b4d4-d4df8bee34e2?rule=$_1.AUTO",
     "firstSeenAt": "2026-10-01T17:14:08.720Z"
+  },
+  {
+    "id": "kleinanzeigen:3529106609",
+    "site": "kleinanzeigen",
+    "searchId": "s1790094439962",
+    "externalId": "3529106609",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/3-zimmerwohnung-dg-62-qm-in-filderstadt/3529106609-203-8892",
+    "title": "3-Zimmerwohnung DG 62 qm in Filderstadt",
+    "titleTr": "Filderstadt'ta 62 m²'lik çatı katında 3 odalı daire",
+    "price": "720 €",
+    "priceCold": null,
+    "priceWarm": "920 €",
+    "facts": "62 m² · 3 Zi.",
+    "location": "70794 Filderstadt",
+    "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/99/99893138-ec15-423f-b933-fa89750d2414?rule=$_2.AUTO",
+    "firstSeenAt": "2026-10-02T16:27:44.375Z"
+  },
+  {
+    "id": "kleinanzeigen:3529097767",
+    "site": "kleinanzeigen",
+    "searchId": "s1790094439962",
+    "externalId": "3529097767",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/helle-3-zi-wohnung-der-besonderen-art-in-sielmingen/3529097767-203-8892",
+    "title": "Helle 3 Zi.-Wohnung, der besonderen Art in Sielmingen",
+    "titleTr": "Sielmingen’de, kendine özgü bir tarza sahip aydınlık 3 odalı daire",
+    "price": "750 €",
+    "priceCold": null,
+    "priceWarm": "950 €",
+    "facts": "60 m² · 3 Zi.",
+    "location": "70794 Filderstadt",
+    "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/08/0852b053-1145-437c-9266-30d4d4d2013d?rule=$_2.AUTO",
+    "firstSeenAt": "2026-10-02T16:27:44.375Z"
   }
 ]
