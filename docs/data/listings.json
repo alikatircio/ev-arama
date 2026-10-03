@@ -1022,5 +1022,21 @@
     "location": "70794 Filderstadt",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/08/0852b053-1145-437c-9266-30d4d4d2013d?rule=$_2.AUTO",
     "firstSeenAt": "2026-10-02T16:27:44.375Z"
+  },
+  {
+    "id": "kleinanzeigen:3500394525",
+    "site": "kleinanzeigen",
+    "searchId": "s1790097551950",
+    "externalId": "3500394525",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/4-zi-wohnung-nahe-uni-hohenheim-mit-pkw-stellpl-/3500394525-203-9298",
+    "title": "4 Zi.- Wohnung nahe Uni Hohenheim mit Pkw Stellpl.",
+    "titleTr": "Hohenheim Üniversitesi yakınında, 4 odalı daire, otopark yeri dahil",
+    "price": "1.600 €",
+    "priceCold": null,
+    "priceWarm": "1.870 €",
+    "facts": "87,26 m² · 4 Zi.",
+    "location": "70599 Birkach",
+    "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/7d/7da6b5f7-8ad1-4448-9159-1dd5e11efe6d?rule=$_2.AUTO",
+    "firstSeenAt": "2026-10-03T01:32:16.421Z"
   }
 ]
