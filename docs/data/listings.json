@@ -1038,5 +1038,37 @@
     "location": "70599 Birkach",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/7d/7da6b5f7-8ad1-4448-9159-1dd5e11efe6d?rule=$_2.AUTO",
     "firstSeenAt": "2026-10-03T01:32:16.421Z"
+  },
+  {
+    "id": "kleinanzeigen:3529516443",
+    "site": "kleinanzeigen",
+    "searchId": "s1790097551950",
+    "externalId": "3529516443",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/wohnen-im-gruenen-3-5-zi-ruhig-vollklimatisiert/3529516443-203-9602",
+    "title": "Wohnen im Grünen – 3,5 Zi., ruhig & vollklimatisiert",
+    "titleTr": "Yeşilliklerin içinde yaşam – 3,5 oda, sakin ve tüm odalarda klima",
+    "price": "1.300 €",
+    "priceCold": null,
+    "priceWarm": "1.550 €",
+    "facts": "79 m² · 3,5 Zi.",
+    "location": "70599 Plieningen",
+    "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/24/24c9f898-a453-4d36-99c2-7bbe7cc56430?rule=$_2.AUTO",
+    "firstSeenAt": "2026-10-03T15:01:52.051Z"
+  },
+  {
+    "id": "kleinanzeigen:3529910770",
+    "site": "kleinanzeigen",
+    "searchId": "s1790098150311",
+    "externalId": "3529910770",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/attraktive-3-5-zimmer-wohnung/3529910770-203-9602",
+    "title": "Attraktive 3,5-Zimmer-Wohnung",
+    "titleTr": "Çekici 3,5 odalı daire",
+    "price": "1.250 €",
+    "priceCold": null,
+    "priceWarm": "1.250 €",
+    "facts": "80 m² · 3,5 Zi.",
+    "location": "70599 Plieningen",
+    "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/81/814a930c-0e0e-4bcd-ba2d-63b6ce67b642?rule=$_2.AUTO",
+    "firstSeenAt": "2026-10-03T15:01:52.051Z"
   }
 ]
