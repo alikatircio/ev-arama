@@ -1086,5 +1086,37 @@
     "location": "70771 Leinfelden-Echterdingen",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/d6/d69907f2-3fba-4fda-b986-e824750e229c?rule=$_2.AUTO",
     "firstSeenAt": "2026-10-04T02:14:29.362Z"
+  },
+  {
+    "id": "kleinanzeigen:3531406576",
+    "site": "kleinanzeigen",
+    "searchId": "s1790094439962",
+    "externalId": "3531406576",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/helle-3-zimmer-wohnung-in-bernhausen-ab-01-11-/3531406576-203-8892",
+    "title": "Helle 3 Zimmer Wohnung in Bernhausen ab 01.11.",
+    "titleTr": "Bernhausen'da 1 Kasım'dan itibaren kiralanacak aydınlık 3 odalı daire.",
+    "price": "1.200 €",
+    "priceCold": null,
+    "priceWarm": null,
+    "facts": "72 m² · 3 Zi.",
+    "location": "70794 Filderstadt",
+    "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/13/130e7753-dd09-4dcb-82e3-d273d61fe06e?rule=$_2.AUTO",
+    "firstSeenAt": "2026-10-04T15:36:34.532Z"
+  },
+  {
+    "id": "kleinanzeigen:3531215751",
+    "site": "kleinanzeigen",
+    "searchId": "s1790097551950",
+    "externalId": "3531215751",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/mietwohnung/3531215751-203-8453",
+    "title": "Mietwohnung",
+    "titleTr": "Kiralık daire",
+    "price": "1.200 €",
+    "priceCold": null,
+    "priceWarm": "1.450 €",
+    "facts": "70 m² · 4 Zi.",
+    "location": "70771 Leinfelden-Echterdingen",
+    "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/eb/eb1a9284-2ff3-40fe-aaf7-bb06b8df0ddf?rule=$_2.AUTO",
+    "firstSeenAt": "2026-10-04T15:36:34.532Z"
   }
 ]
