@@ -1070,5 +1070,21 @@
     "location": "70599 Plieningen",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/81/814a930c-0e0e-4bcd-ba2d-63b6ce67b642?rule=$_2.AUTO",
     "firstSeenAt": "2026-10-03T15:01:52.051Z"
+  },
+  {
+    "id": "kleinanzeigen:3530442280",
+    "site": "kleinanzeigen",
+    "searchId": "s1790097551950",
+    "externalId": "3530442280",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/neubau-2025-4-zimmer-wohnung-in-sued-west-lage-mit-kochinsel-balkon-und-tg-u5-vor-der-tuer/3530442280-203-8453",
+    "title": "Neubau 2025: 4-Zimmer-Wohnung in Süd-West-Lage mit Kochinsel, Balkon und TG – U5 vor der Tür",
+    "titleTr": "2025'te inşa edilecek yeni bina: Güneybatı cepheli, mutfak adası, balkon ve yer altı otoparkı bulunan 4 odalı daire – U5 metro hattı kapının önünde",
+    "price": "1.885 €",
+    "priceCold": null,
+    "priceWarm": "2.160 €",
+    "facts": "95,78 m² · 4 Zi.",
+    "location": "70771 Leinfelden-Echterdingen",
+    "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/d6/d69907f2-3fba-4fda-b986-e824750e229c?rule=$_2.AUTO",
+    "firstSeenAt": "2026-10-04T02:14:29.362Z"
   }
 ]
