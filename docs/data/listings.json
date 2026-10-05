@@ -1118,5 +1118,21 @@
     "location": "70771 Leinfelden-Echterdingen",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/eb/eb1a9284-2ff3-40fe-aaf7-bb06b8df0ddf?rule=$_2.AUTO",
     "firstSeenAt": "2026-10-04T15:36:34.532Z"
+  },
+  {
+    "id": "kleinanzeigen:3531947774",
+    "site": "kleinanzeigen",
+    "searchId": "s1790098150311",
+    "externalId": "3531947774",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/3-5-zimmer-maisonette-wohnung/3531947774-203-9602",
+    "title": "3,5 Zimmer Maisonette Wohnung",
+    "titleTr": "3,5 odalı dubleks daire",
+    "price": "1.100 €",
+    "priceCold": null,
+    "priceWarm": null,
+    "facts": "75 m² · 3,5 Zi.",
+    "location": "70599 Plieningen",
+    "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ac/ac082813-5067-4901-a7ed-b62c987347d7?rule=$_2.AUTO",
+    "firstSeenAt": "2026-10-05T19:28:47.614Z"
   }
 ]
