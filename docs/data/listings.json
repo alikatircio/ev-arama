@@ -1134,5 +1134,37 @@
     "location": "70599 Plieningen",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/ac/ac082813-5067-4901-a7ed-b62c987347d7?rule=$_2.AUTO",
     "firstSeenAt": "2026-10-05T19:28:47.614Z"
+  },
+  {
+    "id": "kleinanzeigen:3532866732",
+    "site": "kleinanzeigen",
+    "searchId": "s1790094439962",
+    "externalId": "3532866732",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/4-zimmer-wohnung/3532866732-203-8892",
+    "title": "4-Zimmer Wohnung",
+    "titleTr": "4 odalı daire",
+    "price": "940 €",
+    "priceCold": null,
+    "priceWarm": null,
+    "facts": "86 m² · 4 Zi.",
+    "location": "70794 Filderstadt",
+    "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/a7/a7d594a1-6f03-4678-aea9-1c592f6bc806?rule=$_2.AUTO",
+    "firstSeenAt": "2026-10-06T17:01:37.092Z"
+  },
+  {
+    "id": "kleinanzeigen:3533203622",
+    "site": "kleinanzeigen",
+    "searchId": "s1790097551950",
+    "externalId": "3533203622",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/hochwertige-4-zi-wohnung-mit-balkon-aufzug-ebk-und-tg-stellplatz-in-le/3533203622-203-8453",
+    "title": "Hochwertige 4-Zi.-Wohnung mit Balkon, Aufzug, EBK und TG-Stellplatz in LE",
+    "titleTr": "LE'de balkonlu, asansörlü, hazır mutfaklı ve yer altı otoparkı bulunan yüksek kaliteli 4 odalı daire",
+    "price": "1.750 €",
+    "priceCold": null,
+    "priceWarm": "2.130 €",
+    "facts": "105 m² · 4 Zi.",
+    "location": "70771 Leinfelden-Echterdingen",
+    "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/76/76c2473a-b74c-4a47-bb75-2d7aaf5232ee?rule=$_2.AUTO",
+    "firstSeenAt": "2026-10-06T17:01:37.092Z"
   }
 ]
