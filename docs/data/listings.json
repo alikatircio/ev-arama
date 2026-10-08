@@ -1166,5 +1166,21 @@
     "location": "70771 Leinfelden-Echterdingen",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/76/76c2473a-b74c-4a47-bb75-2d7aaf5232ee?rule=$_2.AUTO",
     "firstSeenAt": "2026-10-06T17:01:37.092Z"
+  },
+  {
+    "id": "kleinanzeigen:3534681908",
+    "site": "kleinanzeigen",
+    "searchId": "s1790094439962",
+    "externalId": "3534681908",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/ab-01-01-27-neuwertige-und-moderne-3-zimmer-wohnung-in-bernhausen/3534681908-203-8892",
+    "title": "ab 01.01.27 - Neuwertige und moderne 3-Zimmer Wohnung in Bernhausen",
+    "titleTr": "01.01.27 tarihinden itibaren - Bernhausen'da yeni ve modern 3 odalı daire",
+    "price": "1.100 €",
+    "priceCold": null,
+    "priceWarm": "1.260 €",
+    "facts": "65 m² · 3 Zi.",
+    "location": "70794 Filderstadt",
+    "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/cb/cb781733-186b-4185-ac23-fcec8b04a03a?rule=$_2.AUTO",
+    "firstSeenAt": "2026-10-08T17:41:29.708Z"
   }
 ]
