@@ -1198,5 +1198,21 @@
     "location": "70794 Filderstadt",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/99/99885d5d-74ff-4735-a08c-199882035fd3?rule=$_2.AUTO",
     "firstSeenAt": "2026-10-09T02:39:29.461Z"
+  },
+  {
+    "id": "kleinanzeigen:3535318085",
+    "site": "kleinanzeigen",
+    "searchId": "s1790097551950",
+    "externalId": "3535318085",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/moderene-moeblierte-wohnung/3535318085-203-29794",
+    "title": "Moderene, möblierte Wohnung",
+    "titleTr": "Modern, mobilyalı daire",
+    "price": "1.300 €",
+    "priceCold": null,
+    "priceWarm": null,
+    "facts": "60 m² · 3 Zi. · Online-Besichtigung",
+    "location": "70565 Fasanenhof",
+    "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/fa/fa78c727-fced-4c83-95e6-5d6ae3beb468?rule=$_2.AUTO",
+    "firstSeenAt": "2026-10-09T17:16:37.220Z"
   }
 ]
