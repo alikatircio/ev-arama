@@ -1182,5 +1182,21 @@
     "location": "70794 Filderstadt",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/cb/cb781733-186b-4185-ac23-fcec8b04a03a?rule=$_2.AUTO",
     "firstSeenAt": "2026-10-08T17:41:29.708Z"
+  },
+  {
+    "id": "kleinanzeigen:3535154248",
+    "site": "kleinanzeigen",
+    "searchId": "s1790094439962",
+    "externalId": "3535154248",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/nachmieter-fuer-3-zimmerwohnung/3535154248-203-8892",
+    "title": "Nachmieter für 3 Zimmerwohnung",
+    "titleTr": "3 odalı dairenin yeni kiracısı",
+    "price": "750 €",
+    "priceCold": null,
+    "priceWarm": "750 €",
+    "facts": "60 m² · 3 Zi.",
+    "location": "70794 Filderstadt",
+    "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/99/99885d5d-74ff-4735-a08c-199882035fd3?rule=$_2.AUTO",
+    "firstSeenAt": "2026-10-09T02:39:29.461Z"
   }
 ]
