@@ -1214,5 +1214,21 @@
     "location": "70565 Fasanenhof",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/fa/fa78c727-fced-4c83-95e6-5d6ae3beb468?rule=$_2.AUTO",
     "firstSeenAt": "2026-10-09T17:16:37.220Z"
+  },
+  {
+    "id": "kleinanzeigen:3536674611",
+    "site": "kleinanzeigen",
+    "searchId": "s1790097551950",
+    "externalId": "3536674611",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/wg-zimmer-zu-vermieten/3536674611-203-29794",
+    "title": "WG Zimmer zu vermieten",
+    "titleTr": "Paylaşımlı dairede oda kiralık",
+    "price": "450 €",
+    "priceCold": null,
+    "priceWarm": "450 €",
+    "facts": "20 m² · 3 Zi.",
+    "location": "70565 Fasanenhof",
+    "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/dc/dc23d61d-6359-4f6f-ac3d-4fc9bef62edd?rule=$_2.AUTO",
+    "firstSeenAt": "2026-10-10T16:05:13.722Z"
   }
 ]
