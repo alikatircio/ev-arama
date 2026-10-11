@@ -1230,5 +1230,21 @@
     "location": "70565 Fasanenhof",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/dc/dc23d61d-6359-4f6f-ac3d-4fc9bef62edd?rule=$_2.AUTO",
     "firstSeenAt": "2026-10-10T16:05:13.722Z"
+  },
+  {
+    "id": "kleinanzeigen:3537734837",
+    "site": "kleinanzeigen",
+    "searchId": "s1790097551950",
+    "externalId": "3537734837",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/nachmieter-gesucht-4-zimmer-wohnung-in-plieningen/3537734837-203-9602",
+    "title": "Nachmieter gesucht - 4 Zimmer Wohnung in Plieningen",
+    "titleTr": "Yeni kiracı aranıyor - Plieningen'de 4 odalı daire",
+    "price": "1.855 €",
+    "priceCold": null,
+    "priceWarm": null,
+    "facts": "108 m² · 4 Zi.",
+    "location": "70599 Plieningen",
+    "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/8f/8fb2a82d-02db-4de6-96db-8537a6e9374b?rule=$_2.AUTO",
+    "firstSeenAt": "2026-10-11T16:29:31.611Z"
   }
 ]
