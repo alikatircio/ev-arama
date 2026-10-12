@@ -1262,5 +1262,37 @@
     "location": "70599 Plieningen",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/dc/dc2706d9-5485-4d4e-a00e-8529aac14f46?rule=$_2.AUTO",
     "firstSeenAt": "2026-10-12T01:54:42.773Z"
+  },
+  {
+    "id": "kleinanzeigen:3539299363",
+    "site": "kleinanzeigen",
+    "searchId": "s1790097551950",
+    "externalId": "3539299363",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/schoene-helle-3-zimmer-wohnung-in-echterdingen/3539299363-203-8453",
+    "title": "Schöne helle 3 Zimmer Wohnung in Echterdingen",
+    "titleTr": "Echterdingen’de güzel ve aydınlık 3 odalı daire",
+    "price": "1.250 €",
+    "priceCold": null,
+    "priceWarm": "1.550 €",
+    "facts": "89 m² · 3 Zi.",
+    "location": "70771 Leinfelden-Echterdingen",
+    "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/72/729811c2-e7a8-4a73-bc64-9cca9fcc62de?rule=$_2.AUTO",
+    "firstSeenAt": "2026-10-12T20:05:06.432Z"
+  },
+  {
+    "id": "kleinanzeigen:3539248622",
+    "site": "kleinanzeigen",
+    "searchId": "s1790097551950",
+    "externalId": "3539248622",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/gut-geschnittene-3-5-raum-wohnung-mit-balkon-in-unteraichen/3539248622-203-8453",
+    "title": "Gut geschnittene 3,5-Raum-Wohnung mit Balkon in Unteraichen",
+    "titleTr": "Unteraichen’de, balkonlu, iyi planlanmış 3,5 odalı daire",
+    "price": "1.150 €",
+    "priceCold": null,
+    "priceWarm": "1.400 €",
+    "facts": "74 m² · 3,5 Zi.",
+    "location": "70771 Leinfelden-Echterdingen",
+    "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/d4/d4c61ea8-73b6-4fe9-81fa-52168b500544?rule=$_2.AUTO",
+    "firstSeenAt": "2026-10-12T20:05:06.432Z"
   }
 ]
