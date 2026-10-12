@@ -1246,5 +1246,21 @@
     "location": "70599 Plieningen",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/8f/8fb2a82d-02db-4de6-96db-8537a6e9374b?rule=$_2.AUTO",
     "firstSeenAt": "2026-10-11T16:29:31.611Z"
+  },
+  {
+    "id": "kleinanzeigen:3538335663",
+    "site": "kleinanzeigen",
+    "searchId": "s1790094439962",
+    "externalId": "3538335663",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/3-5-zimmer-wohnung-in-plieningen/3538335663-203-9602",
+    "title": "3,5-Zimmer-Wohnung in Plieningen",
+    "titleTr": "Plieningen'de 3,5 odalı daire",
+    "price": "1.008 €",
+    "priceCold": null,
+    "priceWarm": "1.318 €",
+    "facts": "84 m² · 3,5 Zi.",
+    "location": "70599 Plieningen",
+    "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/dc/dc2706d9-5485-4d4e-a00e-8529aac14f46?rule=$_2.AUTO",
+    "firstSeenAt": "2026-10-12T01:54:42.773Z"
   }
 ]
