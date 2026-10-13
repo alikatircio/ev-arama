@@ -1310,5 +1310,37 @@
     "location": "70794 Filderstadt",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/52/529097a4-511c-4fac-a68e-163aa147fe71?rule=$_2.AUTO",
     "firstSeenAt": "2026-10-13T03:16:16.898Z"
+  },
+  {
+    "id": "kleinanzeigen:3539912472",
+    "site": "kleinanzeigen",
+    "searchId": "s1790097551950",
+    "externalId": "3539912472",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/3-zimmer-wohnung/3539912472-203-9302",
+    "title": "3 Zimmer Wohnung",
+    "titleTr": "3 odalı daire",
+    "price": "890 €",
+    "priceCold": null,
+    "priceWarm": null,
+    "facts": "69 m² · 3 Zi.",
+    "location": "70565 Möhringen",
+    "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/bb/bb93c741-ae81-47a8-a194-cd4fc822d604?rule=$_2.AUTO",
+    "firstSeenAt": "2026-10-13T17:54:08.705Z"
+  },
+  {
+    "id": "kleinanzeigen:3539857129",
+    "site": "kleinanzeigen",
+    "searchId": "s1790097551950",
+    "externalId": "3539857129",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/modernisierte-3-zimmer-wohnung-mit-neuer-ebk-balkon-tg/3539857129-203-8453",
+    "title": "Modernisierte 3-Zimmer-Wohnung mit neuer EBK, Balkon & TG",
+    "titleTr": "Yeni mutfak takımı, balkon ve yer altı otoparkı bulunan yenilenmiş 3 odalı daire",
+    "price": "1.230 €",
+    "priceCold": null,
+    "priceWarm": null,
+    "facts": "80 m² · 3 Zi. · Online-Besichtigung",
+    "location": "70771 Leinfelden-Echterdingen",
+    "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/26/26cbf338-1e8d-43fb-85d0-3e6405fc48e0?rule=$_2.AUTO",
+    "firstSeenAt": "2026-10-13T17:54:08.705Z"
   }
 ]
