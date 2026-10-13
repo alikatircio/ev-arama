@@ -1294,5 +1294,21 @@
     "location": "70771 Leinfelden-Echterdingen",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/d4/d4c61ea8-73b6-4fe9-81fa-52168b500544?rule=$_2.AUTO",
     "firstSeenAt": "2026-10-12T20:05:06.432Z"
+  },
+  {
+    "id": "kleinanzeigen:3539463127",
+    "site": "kleinanzeigen",
+    "searchId": "s1790094439962",
+    "externalId": "3539463127",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/frisch-renovierte-3-zimmer-wohnung-bernhausen-filderstadt-/3539463127-203-8892",
+    "title": "Frisch renovierte 3-Zimmer-Wohnung Bernhausen (Filderstadt)",
+    "titleTr": "Bernhausen (Filderstadt) 'da yeni yenilenmiş 3 odalı daire",
+    "price": "980 €",
+    "priceCold": null,
+    "priceWarm": null,
+    "facts": "78 m² · 3 Zi.",
+    "location": "70794 Filderstadt",
+    "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/52/529097a4-511c-4fac-a68e-163aa147fe71?rule=$_2.AUTO",
+    "firstSeenAt": "2026-10-13T03:16:16.898Z"
   }
 ]
