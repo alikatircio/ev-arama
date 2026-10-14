@@ -1342,5 +1342,53 @@
     "location": "70771 Leinfelden-Echterdingen",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/26/26cbf338-1e8d-43fb-85d0-3e6405fc48e0?rule=$_2.AUTO",
     "firstSeenAt": "2026-10-13T17:54:08.705Z"
+  },
+  {
+    "id": "kleinanzeigen:3540423472",
+    "site": "kleinanzeigen",
+    "searchId": "s1790094439962",
+    "externalId": "3540423472",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/hell-und-hochwertig-in-filderstadt-mit-garten/3540423472-203-8892",
+    "title": "HELL UND HOCHWERTIG IN FILDERSTADT, MIT GARTEN",
+    "titleTr": "FILDERSTADT'TA AYDINLIK VE KALİTELİ, BAHÇELİ",
+    "price": "1.900 €",
+    "priceCold": null,
+    "priceWarm": "2.300 €",
+    "facts": "117 m² · 4 Zi.",
+    "location": "70794 Filderstadt",
+    "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/06/0696e835-3e36-47fa-b70d-93927cd7629f?rule=$_2.AUTO",
+    "firstSeenAt": "2026-10-14T15:40:36.521Z"
+  },
+  {
+    "id": "kleinanzeigen:3540428373",
+    "site": "kleinanzeigen",
+    "searchId": "s1790097551950",
+    "externalId": "3540428373",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/erstbezug-nach-kernsanierung-in-zentraler-lage/3540428373-203-8453",
+    "title": "ERSTBEZUG NACH KERNSANIERUNG IN ZENTRALER LAGE",
+    "titleTr": "MERKEZİ BİR KONUMDA, TAMAMEN YENİLENMİŞ BİR DAİREYE İLK KEZ TAŞINMA",
+    "price": "1.700 €",
+    "priceCold": null,
+    "priceWarm": "2.100 €",
+    "facts": "103 m² · 4 Zi.",
+    "location": "70771 Leinfelden-Echterdingen",
+    "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/0c/0c6064a8-0a17-4806-ab33-360903099817?rule=$_2.AUTO",
+    "firstSeenAt": "2026-10-14T15:40:36.521Z"
+  },
+  {
+    "id": "kleinanzeigen:3540427750",
+    "site": "kleinanzeigen",
+    "searchId": "s1790097551950",
+    "externalId": "3540427750",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/erstbezug-nach-kernsanierung-in-zentraler-lage/3540427750-203-8453",
+    "title": "ERSTBEZUG NACH KERNSANIERUNG IN ZENTRALER LAGE",
+    "titleTr": "MERKEZİ BİR KONUMDA, TAMAMEN YENİLENMİŞ BİR DAİREYE İLK KEZ TAŞINMA",
+    "price": "1.400 €",
+    "priceCold": null,
+    "priceWarm": "1.800 €",
+    "facts": "85 m² · 4 Zi.",
+    "location": "70771 Leinfelden-Echterdingen",
+    "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/06/066f8e31-3402-4c4c-bdf4-08089e677d86?rule=$_2.AUTO",
+    "firstSeenAt": "2026-10-14T15:40:36.521Z"
   }
 ]
