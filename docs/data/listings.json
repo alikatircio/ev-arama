@@ -1390,5 +1390,37 @@
     "location": "70771 Leinfelden-Echterdingen",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/06/066f8e31-3402-4c4c-bdf4-08089e677d86?rule=$_2.AUTO",
     "firstSeenAt": "2026-10-14T15:40:36.521Z"
+  },
+  {
+    "id": "kleinanzeigen:3541101391",
+    "site": "kleinanzeigen",
+    "searchId": "s1790098150311",
+    "externalId": "3541101391",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/3-5-zimmer-dg-wohnung-10-qm-balkon/3541101391-203-9602",
+    "title": "3,5 Zimmer-DG-Wohnung 10 qm Balkon",
+    "titleTr": "3,5 odalı çatı katı daire, 10 m² balkonlu",
+    "price": "950 €",
+    "priceCold": null,
+    "priceWarm": "1.200 €",
+    "facts": "68 m² · 3,5 Zi.",
+    "location": "70599 Plieningen",
+    "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/63/6343cb9a-3a09-449b-94a2-34bca5b8feeb?rule=$_2.AUTO",
+    "firstSeenAt": "2026-10-15T01:04:24.517Z"
+  },
+  {
+    "id": "kleinanzeigen:3541059197",
+    "site": "kleinanzeigen",
+    "searchId": "s1790098150311",
+    "externalId": "3541059197",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/3-5-zimmer-wohnung-mit-balkon/3541059197-203-9602",
+    "title": "3,5-Zimmer-Wohnung mit Balkon",
+    "titleTr": "Balkonlu 3,5 odalı daire",
+    "price": "1.240 €",
+    "priceCold": null,
+    "priceWarm": "1.440 €",
+    "facts": "81 m² · 3,5 Zi.",
+    "location": "70599 Plieningen",
+    "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/4c/4c2a1bad-4b3c-46c5-b13b-d8db119852c1?rule=$_2.AUTO",
+    "firstSeenAt": "2026-10-15T01:04:24.517Z"
   }
 ]
