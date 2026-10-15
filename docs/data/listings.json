@@ -1422,5 +1422,21 @@
     "location": "70599 Plieningen",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/4c/4c2a1bad-4b3c-46c5-b13b-d8db119852c1?rule=$_2.AUTO",
     "firstSeenAt": "2026-10-15T01:04:24.517Z"
+  },
+  {
+    "id": "kleinanzeigen:3419489554",
+    "site": "kleinanzeigen",
+    "searchId": "s1790097551950",
+    "externalId": "3419489554",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/traumhafte-5-zimmer-wohnung-im-herzen-von-echterdingen/3419489554-203-8453",
+    "title": "Traumhafte 5 Zimmer-Wohnung im Herzen von Echterdingen",
+    "titleTr": "Echterdingen’in tam kalbinde yer alan muhteşem 5 odalı daire",
+    "price": "2.600 €",
+    "priceCold": null,
+    "priceWarm": null,
+    "facts": "194 m² · 5 Zi.",
+    "location": "70771 Leinfelden-Echterdingen",
+    "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/45/4589501e-9fec-4297-93f0-32796e43f680?rule=$_2.AUTO",
+    "firstSeenAt": "2026-10-15T15:27:41.913Z"
   }
 ]
