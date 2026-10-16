@@ -1438,5 +1438,21 @@
     "location": "70771 Leinfelden-Echterdingen",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/45/4589501e-9fec-4297-93f0-32796e43f680?rule=$_2.AUTO",
     "firstSeenAt": "2026-10-15T15:27:41.913Z"
+  },
+  {
+    "id": "kleinanzeigen:3542584265",
+    "site": "kleinanzeigen",
+    "searchId": "s1790094439962",
+    "externalId": "3542584265",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/sonnige-helle-4-zimmer-wohnung-3-balkone-in-filderstadt/3542584265-203-8892",
+    "title": "Sonnige, helle 4-Zimmer-Wohnung, 3 Balkone in Filderstadt",
+    "titleTr": "Filderstadt’ta güneşli, aydınlık 4 odalı daire, 3 balkonlu",
+    "price": "1.250 €",
+    "priceCold": null,
+    "priceWarm": "1.530 €",
+    "facts": "104 m² · 4 Zi.",
+    "location": "70794 Filderstadt",
+    "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/89/899264d6-1cd5-4ed5-b6f1-0912c85542c1?rule=$_2.AUTO",
+    "firstSeenAt": "2026-10-16T15:07:10.687Z"
   }
 ]
