@@ -1454,5 +1454,21 @@
     "location": "70794 Filderstadt",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/89/899264d6-1cd5-4ed5-b6f1-0912c85542c1?rule=$_2.AUTO",
     "firstSeenAt": "2026-10-16T15:07:10.687Z"
+  },
+  {
+    "id": "kleinanzeigen:3543922383",
+    "site": "kleinanzeigen",
+    "searchId": "s1790097551950",
+    "externalId": "3543922383",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/platz-fuer-familienleben-wohnung-mit-drei-schlafzimmern-in-echterdingen/3543922383-203-8453",
+    "title": "Platz für Familienleben: Wohnung mit drei Schlafzimmern in Echterdingen",
+    "titleTr": "Aile hayatı için ideal: Echterdingen’de üç yatak odalı daire",
+    "price": "1.250 €",
+    "priceCold": null,
+    "priceWarm": "1.500 €",
+    "facts": "115 m² · 4,5 Zi.",
+    "location": "70771 Leinfelden-Echterdingen",
+    "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/f4/f45dcc84-0c55-4251-ac43-a55ae54bd66e?rule=$_2.AUTO",
+    "firstSeenAt": "2026-10-18T00:29:48.355Z"
   }
 ]
