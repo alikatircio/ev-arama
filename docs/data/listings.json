@@ -1470,5 +1470,37 @@
     "location": "70771 Leinfelden-Echterdingen",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/f4/f45dcc84-0c55-4251-ac43-a55ae54bd66e?rule=$_2.AUTO",
     "firstSeenAt": "2026-10-18T00:29:48.355Z"
+  },
+  {
+    "id": "kleinanzeigen:3545081324",
+    "site": "kleinanzeigen",
+    "searchId": "s1790097551950",
+    "externalId": "3545081324",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/3-zimmer-suedbalkon-bad-wc-und-kueche-2026-kernsaniert/3545081324-203-8453",
+    "title": "3½-Zimmer, Südbalkon, Bad, WC und Küche 2026 kernsaniert",
+    "titleTr": "3½ oda, güneye bakan balkon, banyo, tuvalet ve mutfak; 2026 yılında tamamen yenilenmiştir",
+    "price": "1.490 €",
+    "priceCold": null,
+    "priceWarm": "1.750 €",
+    "facts": "85,82 m² · 3,5 Zi.",
+    "location": "70771 Leinfelden-Echterdingen",
+    "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/94/94cadeaf-f7bf-4683-95cd-5d0725074099?rule=$_1.AUTO",
+    "firstSeenAt": "2026-10-19T00:35:32.351Z"
+  },
+  {
+    "id": "kleinanzeigen:3545186915",
+    "site": "kleinanzeigen",
+    "searchId": "s1790097551950",
+    "externalId": "3545186915",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/3-zimmerwohnung-mit-xxl-balkon/3545186915-203-8453",
+    "title": "3 Zimmerwohnung mit XXL Balkon",
+    "titleTr": "XXL balkonlu 3 odalı daire",
+    "price": "1.600 €",
+    "priceCold": null,
+    "priceWarm": null,
+    "facts": "115 m² · 3 Zi.",
+    "location": "70771 Leinfelden-Echterdingen",
+    "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/82/8246c15e-b4be-4b02-a079-bac00b95315d?rule=$_2.AUTO",
+    "firstSeenAt": "2026-10-19T00:35:32.351Z"
   }
 ]
