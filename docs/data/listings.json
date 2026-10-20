@@ -1502,5 +1502,53 @@
     "location": "70771 Leinfelden-Echterdingen",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/82/8246c15e-b4be-4b02-a079-bac00b95315d?rule=$_2.AUTO",
     "firstSeenAt": "2026-10-19T00:35:32.351Z"
+  },
+  {
+    "id": "kleinanzeigen:3546718150",
+    "site": "kleinanzeigen",
+    "searchId": "s1790097551950",
+    "externalId": "3546718150",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/moderne-3-zimmer-maisonette-wohnung-im-herzen-von-echterdingen/3546718150-203-8453",
+    "title": "Moderne 3-Zimmer Maisonette-Wohnung im Herzen von Echterdingen",
+    "titleTr": "Echterdingen’in tam kalbinde yer alan modern 3 odalı dubleks daire",
+    "price": "1.250 €",
+    "priceCold": null,
+    "priceWarm": "1.600 €",
+    "facts": "91,20 m² · 3 Zi.",
+    "location": "70771 Leinfelden-Echterdingen",
+    "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/57/57261ae0-05a1-48ab-9a13-6fdd087e7f12?rule=$_2.AUTO",
+    "firstSeenAt": "2026-10-20T15:32:06.667Z"
+  },
+  {
+    "id": "kleinanzeigen:3546578025",
+    "site": "kleinanzeigen",
+    "searchId": "s1790097551950",
+    "externalId": "3546578025",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/sonnige-4-zimmer-dg-wohnung-in-leinfelden/3546578025-203-8453",
+    "title": "Sonnige 4 zimmer DG Wohnung in Leinfelden",
+    "titleTr": "Leinfelden'de güneşli, 4 odalı çatı katı daire",
+    "price": "1.300 €",
+    "priceCold": null,
+    "priceWarm": "1.530 €",
+    "facts": "125 m² · 4 Zi.",
+    "location": "70771 Leinfelden-Echterdingen",
+    "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/9b/9be2e691-df4b-41bf-af68-c8668ae4e34f?rule=$_2.AUTO",
+    "firstSeenAt": "2026-10-20T15:32:06.667Z"
+  },
+  {
+    "id": "kleinanzeigen:3500519766",
+    "site": "kleinanzeigen",
+    "searchId": "s1790097551950",
+    "externalId": "3500519766",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/attraktive-grosse-3-zimmer-stadtwohnung-mit-terrasse-und-sonnigem-garten-in-echterdingen/3500519766-203-8453",
+    "title": "Attraktive, große 3 Zimmer-Stadtwohnung mit Terrasse und sonnigem Garten in Echterdingen",
+    "titleTr": "Echterdingen’de teraslı ve güneşli bahçeli, çekici ve geniş 3 odalı şehir dairesi",
+    "price": "1.530 €",
+    "priceCold": null,
+    "priceWarm": "2.084 €",
+    "facts": "110,72 m² · 3 Zi.",
+    "location": "70771 Leinfelden-Echterdingen",
+    "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/f4/f429dc79-2360-4170-820e-e43a814af7ec?rule=$_2.AUTO",
+    "firstSeenAt": "2026-10-20T15:32:06.667Z"
   }
 ]
