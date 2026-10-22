@@ -1566,5 +1566,21 @@
     "location": "70599 Plieningen",
     "imageUrl": null,
     "firstSeenAt": "2026-10-21T01:06:27.351Z"
+  },
+  {
+    "id": "kleinanzeigen:3548301430",
+    "site": "kleinanzeigen",
+    "searchId": "s1790094439962",
+    "externalId": "3548301430",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/wohnen-in-filderstadt-bernhausen-mit-aussicht-auf-95quadratmeter/3548301430-203-8892",
+    "title": "Wohnen in Filderstadt Bernhausen mit Aussicht auf 95Quadratmeter",
+    "titleTr": "Filderstadt Bernhausen’da 95 metrekare manzaralı bir ev",
+    "price": "1.250 €",
+    "priceCold": null,
+    "priceWarm": null,
+    "facts": "95 m² · 3 Zi.",
+    "location": "70794 Filderstadt",
+    "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/5a/5a3384fc-4fef-4b63-87bd-aaa0a375482f?rule=$_2.AUTO",
+    "firstSeenAt": "2026-10-22T15:49:13.233Z"
   }
 ]
