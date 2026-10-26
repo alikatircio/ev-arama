@@ -1582,5 +1582,21 @@
     "location": "70794 Filderstadt",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/5a/5a3384fc-4fef-4b63-87bd-aaa0a375482f?rule=$_2.AUTO",
     "firstSeenAt": "2026-10-22T15:49:13.233Z"
+  },
+  {
+    "id": "kleinanzeigen:3552426817",
+    "site": "kleinanzeigen",
+    "searchId": "s1790097551950",
+    "externalId": "3552426817",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/3-zimmer-wohnung/3552426817-203-8453",
+    "title": "3 Zimmer Wohnung",
+    "titleTr": "3 odalı daire",
+    "price": "1.000 €",
+    "priceCold": null,
+    "priceWarm": "1.314 €",
+    "facts": "75 m² · 3 Zi.",
+    "location": "70771 Leinfelden-Echterdingen",
+    "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/3e/3e194a50-a7ec-4707-9c1f-328945fa6830?rule=$_2.AUTO",
+    "firstSeenAt": "2026-10-26T00:50:30.652Z"
   }
 ]
