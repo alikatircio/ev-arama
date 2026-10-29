@@ -1662,5 +1662,21 @@
     "location": "70771 Leinfelden-Echterdingen",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/26/266e3238-8578-41e6-ab6d-7c62282ed14d?rule=$_2.AUTO",
     "firstSeenAt": "2026-10-27T16:09:47.384Z"
+  },
+  {
+    "id": "kleinanzeigen:3555758869",
+    "site": "kleinanzeigen",
+    "searchId": "s1790097551950",
+    "externalId": "3555758869",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/modernes-wohnen-mit-suedwestbalkon-attraktive-3-5-zimmer-wohnung-mit-einbaukueche-und-tiefgarage-/3555758869-203-8453",
+    "title": "Modernes Wohnen mit Südwestbalkon: Attraktive 3,5-Zimmer-Wohnung mit Einbauküche und Tiefgarage!",
+    "titleTr": "Güneybatıya bakan balkonlu modern bir yaşam: Hazır mutfak ve yer altı otoparkı bulunan çekici 3,5 odalı daire!",
+    "price": "1.230 €",
+    "priceCold": null,
+    "priceWarm": "1.496 €",
+    "facts": "86,30 m² · 3,5 Zi.",
+    "location": "70771 Leinfelden-Echterdingen",
+    "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/32/3256c6b0-f857-4a57-8eb0-90673cd81976?rule=$_2.AUTO",
+    "firstSeenAt": "2026-10-29T17:16:03.137Z"
   }
 ]
