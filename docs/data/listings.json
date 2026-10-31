@@ -1694,5 +1694,21 @@
     "location": "70771 Leinfelden-Echterdingen",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/f2/f2adc393-e047-4def-979d-159191e211d8?rule=$_2.AUTO",
     "firstSeenAt": "2026-10-31T01:55:34.486Z"
+  },
+  {
+    "id": "kleinanzeigen:3557333319",
+    "site": "kleinanzeigen",
+    "searchId": "s1790097551950",
+    "externalId": "3557333319",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/herrliche-aussicht-3-5-zimmer-modernisiert-80qm-3-og/3557333319-203-8453",
+    "title": "Herrliche Aussicht: 3,5 Zimmer, modernisiert, 80qm, 3. OG",
+    "titleTr": "Muhteşem manzara: 3,5 oda, yenilenmiş, 80 m², 3. kat",
+    "price": "980 €",
+    "priceCold": null,
+    "priceWarm": null,
+    "facts": "80 m² · 3,5 Zi.",
+    "location": "70771 Leinfelden-Echterdingen",
+    "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/2a/2ab138ca-d09f-4805-a762-50534c1c572b?rule=$_1.AUTO",
+    "firstSeenAt": "2026-10-31T15:56:12.466Z"
   }
 ]
