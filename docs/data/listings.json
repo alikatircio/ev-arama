@@ -1678,5 +1678,21 @@
     "location": "70771 Leinfelden-Echterdingen",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/32/3256c6b0-f857-4a57-8eb0-90673cd81976?rule=$_2.AUTO",
     "firstSeenAt": "2026-10-29T17:16:03.137Z"
+  },
+  {
+    "id": "kleinanzeigen:3557005113",
+    "site": "kleinanzeigen",
+    "searchId": "s1790097551950",
+    "externalId": "3557005113",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/3-5-zimmer-altbau-wohnung-imhistorischen-ortskern-echterdingen/3557005113-203-8453",
+    "title": "3,5 Zimmer Altbau-Wohnung imhistorischen Ortskern Echterdingen",
+    "titleTr": "Echterdingen’in tarihi merkezinde bulunan 3,5 odalı eski bir apartman dairesi",
+    "price": "1.150 €",
+    "priceCold": null,
+    "priceWarm": null,
+    "facts": "105 m² · 3,5 Zi.",
+    "location": "70771 Leinfelden-Echterdingen",
+    "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/f2/f2adc393-e047-4def-979d-159191e211d8?rule=$_2.AUTO",
+    "firstSeenAt": "2026-10-31T01:55:34.486Z"
   }
 ]
