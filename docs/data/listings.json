@@ -1710,5 +1710,21 @@
     "location": "70771 Leinfelden-Echterdingen",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/2a/2ab138ca-d09f-4805-a762-50534c1c572b?rule=$_1.AUTO",
     "firstSeenAt": "2026-10-31T15:56:12.466Z"
+  },
+  {
+    "id": "kleinanzeigen:3557845725",
+    "site": "kleinanzeigen",
+    "searchId": "s1790094439962",
+    "externalId": "3557845725",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/3-5-zimmer-wohnung-in-filderstadt-sielmingen/3557845725-203-8892",
+    "title": "3,5-Zimmer Wohnung in Filderstadt-Sielmingen",
+    "titleTr": "Filderstadt-Sielmingen'de 3,5 odalı daire",
+    "price": "1.200 €",
+    "priceCold": null,
+    "priceWarm": "1.200 €",
+    "facts": "75 m² · 3,5 Zi.",
+    "location": "70794 Filderstadt",
+    "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/4c/4c6a1120-47c3-45fd-8c8a-d64ef50eb293?rule=$_2.AUTO",
+    "firstSeenAt": "2026-11-01T01:37:03.586Z"
   }
 ]
