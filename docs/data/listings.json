@@ -1726,5 +1726,21 @@
     "location": "70794 Filderstadt",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/4c/4c6a1120-47c3-45fd-8c8a-d64ef50eb293?rule=$_2.AUTO",
     "firstSeenAt": "2026-11-01T01:37:03.586Z"
+  },
+  {
+    "id": "kleinanzeigen:3559510534",
+    "site": "kleinanzeigen",
+    "searchId": "s1790094439962",
+    "externalId": "3559510534",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/helle-3-4-zi-eg-wohnung-mit-grossem-balkon-und-zusaetzl-zimmer/3559510534-203-8892",
+    "title": "Helle 3 (4)-Zi. EG-Wohnung mit großem Balkon und zusätzl. Zimmer",
+    "titleTr": "Geniş bir balkonu ve ek bir odası bulunan aydınlık 3 (4) odalı zemin kat daire",
+    "price": "1.110 €",
+    "priceCold": null,
+    "priceWarm": null,
+    "facts": "110 m² · 4 Zi.",
+    "location": "70794 Filderstadt",
+    "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/09/093e767e-44b4-4f0a-a3ab-9c2ad632764d?rule=$_2.AUTO",
+    "firstSeenAt": "2026-11-02T20:36:23.744Z"
   }
 ]
