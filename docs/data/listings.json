@@ -1758,5 +1758,37 @@
     "location": "70794 Filderstadt",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/c9/c9fa0e85-a51e-4941-ae38-835976e664ee?rule=$_2.AUTO",
     "firstSeenAt": "2026-11-03T03:46:24.840Z"
+  },
+  {
+    "id": "kleinanzeigen:3560310673",
+    "site": "kleinanzeigen",
+    "searchId": "s1790094439962",
+    "externalId": "3560310673",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/hell-und-hochwertig-in-filderstadt-mit-garten/3560310673-203-8892",
+    "title": "HELL UND HOCHWERTIG IN FILDERSTADT, MIT GARTEN",
+    "titleTr": "FILDERSTADT'TA AYDINLIK VE KALİTELİ, BAHÇELİ",
+    "price": "1.900 €",
+    "priceCold": null,
+    "priceWarm": "2.300 €",
+    "facts": "117 m² · 4 Zi.",
+    "location": "70794 Filderstadt",
+    "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/b7/b70ea010-722a-4091-a31c-6d672c9278ff?rule=$_2.AUTO",
+    "firstSeenAt": "2026-11-03T18:12:02.270Z"
+  },
+  {
+    "id": "kleinanzeigen:3560485682",
+    "site": "kleinanzeigen",
+    "searchId": "s1790097551950",
+    "externalId": "3560485682",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/erstbezug-nach-hochwertiger-kernsanierung-penthouse-in-stuttgart-plieningen-/3560485682-203-9602",
+    "title": "Erstbezug nach hochwertiger Kernsanierung: Penthouse in Stuttgart-Plieningen!",
+    "titleTr": "Yüksek kaliteli kapsamlı yenileme çalışmasının ardından ilk kez teslim edilen daire: Stuttgart-Plieningen’de bir çatı katı dairesi!",
+    "price": "2.450 €",
+    "priceCold": null,
+    "priceWarm": "2.680 €",
+    "facts": "116,60 m² · 3 Zi.",
+    "location": "70599 Plieningen",
+    "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/de/defb71dd-0188-4065-9d93-547bfaaa51a0?rule=$_2.AUTO",
+    "firstSeenAt": "2026-11-03T18:12:02.270Z"
   }
 ]
