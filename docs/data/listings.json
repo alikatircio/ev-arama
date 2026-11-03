@@ -1742,5 +1742,21 @@
     "location": "70794 Filderstadt",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/09/093e767e-44b4-4f0a-a3ab-9c2ad632764d?rule=$_2.AUTO",
     "firstSeenAt": "2026-11-02T20:36:23.744Z"
+  },
+  {
+    "id": "kleinanzeigen:3560156351",
+    "site": "kleinanzeigen",
+    "searchId": "s1790094439962",
+    "externalId": "3560156351",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/3-5-zimmerwohnung-mit-loggia-250m-fussweg-zur-s-bahn/3560156351-203-8892",
+    "title": "3,5 Zimmerwohnung mit Loggia - 250m Fußweg zur S-Bahn",
+    "titleTr": "Lojjalı 3,5 odalı daire – S-Bahn’a 250 m yürüme mesafesinde",
+    "price": "950 €",
+    "priceCold": null,
+    "priceWarm": null,
+    "facts": "75 m² · 3,5 Zi.",
+    "location": "70794 Filderstadt",
+    "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/c9/c9fa0e85-a51e-4941-ae38-835976e664ee?rule=$_2.AUTO",
+    "firstSeenAt": "2026-11-03T03:46:24.840Z"
   }
 ]
