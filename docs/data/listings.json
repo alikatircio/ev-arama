@@ -1822,5 +1822,37 @@
     "location": "70771 Leinfelden-Echterdingen",
     "imageUrl": null,
     "firstSeenAt": "2026-11-04T02:49:35.005Z"
+  },
+  {
+    "id": "kleinanzeigen:3561732454",
+    "site": "kleinanzeigen",
+    "searchId": "s1790094439962",
+    "externalId": "3561732454",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/helle-3-zimmer-dg-wohnung-in-filderstadt-bernhausen/3561732454-203-8892",
+    "title": "Helle 3-Zimmer DG Wohnung in Filderstadt-Bernhausen",
+    "titleTr": "Filderstadt-Bernhausen'da aydınlık, 3 odalı çatı katı daire",
+    "price": "920 €",
+    "priceCold": null,
+    "priceWarm": "1.100 €",
+    "facts": "78 m² · 3 Zi.",
+    "location": "70794 Filderstadt",
+    "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/e6/e629f0aa-137c-41f0-ae01-73a3e3115a8d?rule=$_2.AUTO",
+    "firstSeenAt": "2026-11-04T18:23:00.701Z"
+  },
+  {
+    "id": "kleinanzeigen:3561640581",
+    "site": "kleinanzeigen",
+    "searchId": "s1790097551950",
+    "externalId": "3561640581",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/lichtdurchflutete-3-5-zimmer-im-3-og-mit-aufzug/3561640581-203-8453",
+    "title": "Lichtdurchflutete 3,5 Zimmer im 3. OG mit Aufzug",
+    "titleTr": "Asansörlü, 3. katta yer alan, bol ışık alan 3,5 odalı daire",
+    "price": "1.190 €",
+    "priceCold": null,
+    "priceWarm": null,
+    "facts": "84 m² · 3,5 Zi.",
+    "location": "70771 Leinfelden-Echterdingen",
+    "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/30/304f7e76-cd09-47ed-8800-555f1c5f54f8?rule=$_2.AUTO",
+    "firstSeenAt": "2026-11-04T18:23:00.701Z"
   }
 ]
