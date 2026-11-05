@@ -1854,5 +1854,21 @@
     "location": "70771 Leinfelden-Echterdingen",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/30/304f7e76-cd09-47ed-8800-555f1c5f54f8?rule=$_2.AUTO",
     "firstSeenAt": "2026-11-04T18:23:00.701Z"
+  },
+  {
+    "id": "kleinanzeigen:3559363145",
+    "site": "kleinanzeigen",
+    "searchId": "s1790097551950",
+    "externalId": "3559363145",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/kernsanierte-3-zimmer-wohnung-in-top-lage-mit-kueche/3559363145-203-8453",
+    "title": "Kernsanierte 3-Zimmer-Wohnung in top Lage mit Küche",
+    "titleTr": "Mükemmel bir konumda bulunan, mutfaklı ve baştan sona yenilenmiş 3 odalı daire",
+    "price": "1.090 €",
+    "priceCold": null,
+    "priceWarm": "1.165 €",
+    "facts": "68 m² · 3 Zi.",
+    "location": "70771 Leinfelden-Echterdingen",
+    "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/00/0078d493-c7cb-442b-b6b5-4872c4fd25fc?rule=$_2.AUTO",
+    "firstSeenAt": "2026-11-05T02:57:10.952Z"
   }
 ]
