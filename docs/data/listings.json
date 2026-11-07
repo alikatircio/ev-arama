@@ -1870,5 +1870,21 @@
     "location": "70771 Leinfelden-Echterdingen",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/00/0078d493-c7cb-442b-b6b5-4872c4fd25fc?rule=$_2.AUTO",
     "firstSeenAt": "2026-11-05T02:57:10.952Z"
+  },
+  {
+    "id": "kleinanzeigen:3563540332",
+    "site": "kleinanzeigen",
+    "searchId": "s1790094439962",
+    "externalId": "3563540332",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/der-erste-eindruck-zaehlt-der-erstbezug-begeistert-/3563540332-203-8892",
+    "title": "Der erste Eindruck zählt – Der Erstbezug begeistert!",
+    "titleTr": "İlk izlenim önemlidir – İlk taşınma heyecan verici!",
+    "price": "1.130 €",
+    "priceCold": null,
+    "priceWarm": "1.380 €",
+    "facts": "81 m² · 3 Zi.",
+    "location": "70794 Filderstadt",
+    "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/8e/8e1838d7-5f4b-4a8a-aa57-2b9ba96ea177?rule=$_2.AUTO",
+    "firstSeenAt": "2026-11-07T02:27:25.208Z"
   }
 ]
