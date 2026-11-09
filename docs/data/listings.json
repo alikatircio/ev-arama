@@ -1902,5 +1902,21 @@
     "location": "70771 Leinfelden-Echterdingen",
     "imageUrl": null,
     "firstSeenAt": "2026-11-09T02:12:26.785Z"
+  },
+  {
+    "id": "kleinanzeigen:3566779469",
+    "site": "kleinanzeigen",
+    "searchId": "s1790097551950",
+    "externalId": "3566779469",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/3-zimmer-wohnung/3566779469-203-8453",
+    "title": "3 Zimmer Wohnung",
+    "titleTr": "3 odalı daire",
+    "price": "1.050 €",
+    "priceCold": null,
+    "priceWarm": "1.364 €",
+    "facts": "75 m² · 3 Zi.",
+    "location": "70771 Leinfelden-Echterdingen",
+    "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/2a/2add4bce-7ee5-45e7-a1d6-9c7250c758c7?rule=$_2.AUTO",
+    "firstSeenAt": "2026-11-09T21:15:33.498Z"
   }
 ]
