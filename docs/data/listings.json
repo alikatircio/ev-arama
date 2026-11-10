@@ -1918,5 +1918,21 @@
     "location": "70771 Leinfelden-Echterdingen",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/2a/2add4bce-7ee5-45e7-a1d6-9c7250c758c7?rule=$_2.AUTO",
     "firstSeenAt": "2026-11-09T21:15:33.498Z"
+  },
+  {
+    "id": "kleinanzeigen:3567311571",
+    "site": "kleinanzeigen",
+    "searchId": "s1790097551950",
+    "externalId": "3567311571",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/sonnendurchflutete-3-zimmer-wohnung-mit-zwei-baedern/3567311571-203-8453",
+    "title": "Sonnendurchflutete 3-Zimmer-Wohnung mit zwei Bädern",
+    "titleTr": "Güneş ışığıyla dolu, iki banyolu 3 odalı daire",
+    "price": "1.420 €",
+    "priceCold": null,
+    "priceWarm": "1.690 €",
+    "facts": "90 m² · 3 Zi.",
+    "location": "70771 Leinfelden-Echterdingen",
+    "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/4a/4a3749d3-c5dc-4b6c-b6d1-05aaf6d35c76?rule=$_2.AUTO",
+    "firstSeenAt": "2026-11-10T18:25:15.390Z"
   }
 ]
