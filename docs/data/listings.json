@@ -1934,5 +1934,21 @@
     "location": "70771 Leinfelden-Echterdingen",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/4a/4a3749d3-c5dc-4b6c-b6d1-05aaf6d35c76?rule=$_2.AUTO",
     "firstSeenAt": "2026-11-10T18:25:15.390Z"
+  },
+  {
+    "id": "kleinanzeigen:3569496352",
+    "site": "kleinanzeigen",
+    "searchId": "s1790097551950",
+    "externalId": "3569496352",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/architekturjuwel-von-hans-scharoun-13-stock-85-m-mit-balkon/3569496352-203-9302",
+    "title": "Architekturjuwel von Hans Scharoun – 13. Stock, 85 m² mit Balkon",
+    "titleTr": "Hans Scharoun’un mimari şaheseri – 13. kat, 85 m², balkonlu",
+    "price": "1.100 €",
+    "priceCold": null,
+    "priceWarm": null,
+    "facts": "85 m² · 3,5 Zi. · Online-Besichtigung",
+    "location": "70565 Möhringen",
+    "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/54/540fac33-5a9d-43aa-accb-582152b94c86?rule=$_2.AUTO",
+    "firstSeenAt": "2026-11-12T18:40:13.989Z"
   }
 ]
