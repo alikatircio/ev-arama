@@ -1950,5 +1950,21 @@
     "location": "70565 Möhringen",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/54/540fac33-5a9d-43aa-accb-582152b94c86?rule=$_2.AUTO",
     "firstSeenAt": "2026-11-12T18:40:13.989Z"
+  },
+  {
+    "id": "kleinanzeigen:3572384254",
+    "site": "kleinanzeigen",
+    "searchId": "s1790094439962",
+    "externalId": "3572384254",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/schoene-3-zi-wohnung-in-filderstadt-bernhausen-zu-vermieten/3572384254-203-8892",
+    "title": "Schöne 3-Zi Wohnung in Filderstadt-Bernhausen zu vermieten",
+    "titleTr": "Filderstadt-Bernhausen'da kiralık güzel 3 odalı daire",
+    "price": "1.150 €",
+    "priceCold": null,
+    "priceWarm": null,
+    "facts": "81 m² · 3 Zi.",
+    "location": "70794 Filderstadt",
+    "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/b5/b57fbfba-c8da-4580-8a17-fdb9734baa7f?rule=$_2.AUTO",
+    "firstSeenAt": "2026-11-15T17:31:45.915Z"
   }
 ]
