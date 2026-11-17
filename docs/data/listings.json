@@ -1966,5 +1966,21 @@
     "location": "70794 Filderstadt",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/b5/b57fbfba-c8da-4580-8a17-fdb9734baa7f?rule=$_2.AUTO",
     "firstSeenAt": "2026-11-15T17:31:45.915Z"
+  },
+  {
+    "id": "kleinanzeigen:3574860333",
+    "site": "kleinanzeigen",
+    "searchId": "s1790097551950",
+    "externalId": "3574860333",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/vermiete-3-zimmer-wohnung-in-echterdingen/3574860333-203-8453",
+    "title": "Vermiete 3 Zimmer Wohnung in Echterdingen",
+    "titleTr": "Echterdingen'de 3 odalı daire kiralanıyor",
+    "price": "1.250 €",
+    "priceCold": null,
+    "priceWarm": "1.500 €",
+    "facts": "76 m² · 3 Zi.",
+    "location": "70771 Leinfelden-Echterdingen",
+    "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/34/34a40338-74b4-4621-af81-0e6dda1bb80d?rule=$_2.AUTO",
+    "firstSeenAt": "2026-11-17T19:30:59.974Z"
   }
 ]
