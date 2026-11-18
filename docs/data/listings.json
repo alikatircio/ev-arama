@@ -1998,5 +1998,53 @@
     "location": "70565 Fasanenhof",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/6d/6d7d1e70-ff0a-4270-85a5-650e8688f0dd?rule=$_1.AUTO",
     "firstSeenAt": "2026-11-18T03:56:06.906Z"
+  },
+  {
+    "id": "kleinanzeigen:3559910430",
+    "site": "kleinanzeigen",
+    "searchId": "s1790094439962",
+    "externalId": "3559910430",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/helle-4-zimmer-wohnung/3559910430-203-8892",
+    "title": "Helle 4 Zimmer Wohnung",
+    "titleTr": "Aydınlık 4 odalı daire",
+    "price": "1.900 €",
+    "priceCold": null,
+    "priceWarm": null,
+    "facts": "117 m² · 4 Zi.",
+    "location": "70794 Filderstadt",
+    "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/6d/6d2acdd5-099c-474d-b25d-bf48b1b5db33?rule=$_1.AUTO",
+    "firstSeenAt": "2026-11-18T19:13:17.946Z"
+  },
+  {
+    "id": "kleinanzeigen:3575563762",
+    "site": "kleinanzeigen",
+    "searchId": "s1790097551950",
+    "externalId": "3575563762",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/sonnige-4-5-zimmer-maisonette-wohnung-in-70771-l-e-stetten/3575563762-203-8453",
+    "title": "Sonnige 4,5-Zimmer-Maisonette-Wohnung in 70771 L-E./Stetten",
+    "titleTr": "70771 L-E./Stetten'de güneşli, 4,5 odalı dubleks daire",
+    "price": "1.370 €",
+    "priceCold": null,
+    "priceWarm": null,
+    "facts": "104 m² · 4,5 Zi.",
+    "location": "70771 Leinfelden-Echterdingen",
+    "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/bf/bfc12ea2-ba1b-42ca-b7ca-36a15cbf12cc?rule=$_2.AUTO",
+    "firstSeenAt": "2026-11-18T19:13:17.946Z"
+  },
+  {
+    "id": "kleinanzeigen:3575524554",
+    "site": "kleinanzeigen",
+    "searchId": "s1790097551950",
+    "externalId": "3575524554",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/frisch-renovierte-3-5-zimmer-wohnung-mit-grossem-balkon-einbaukueche-in-stetten/3575524554-203-8453",
+    "title": "Frisch renovierte 3,5-Zimmer-Wohnung mit großem Balkon & Einbauküche in Stetten",
+    "titleTr": "Stetten'de, geniş balkonlu ve hazır mutfaklı, yeni yenilenmiş 3,5 odalı daire",
+    "price": "1.200 €",
+    "priceCold": null,
+    "priceWarm": "1.470 €",
+    "facts": "86 m² · 3,5 Zi.",
+    "location": "70771 Leinfelden-Echterdingen",
+    "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/55/553b4754-e2be-4e80-b608-2ed569ae3456?rule=$_2.AUTO",
+    "firstSeenAt": "2026-11-18T19:13:17.946Z"
   }
 ]
