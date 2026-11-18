@@ -1982,5 +1982,21 @@
     "location": "70771 Leinfelden-Echterdingen",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/34/34a40338-74b4-4621-af81-0e6dda1bb80d?rule=$_2.AUTO",
     "firstSeenAt": "2026-11-17T19:30:59.974Z"
+  },
+  {
+    "id": "kleinanzeigen:3575012435",
+    "site": "kleinanzeigen",
+    "searchId": "s1790097551950",
+    "externalId": "3575012435",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/salute-atemberaubender-ausblick-bis-zur-schwaebischen-alb/3575012435-203-29794",
+    "title": "SALUTE - atemberaubender Ausblick bis zur Schwäbischen Alb",
+    "titleTr": "SALUTE - Schwäbische Alb’a kadar uzanan nefes kesici manzara",
+    "price": "1.800 €",
+    "priceCold": null,
+    "priceWarm": "1.800 €",
+    "facts": "98 m² · 4 Zi.",
+    "location": "70565 Fasanenhof",
+    "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/6d/6d7d1e70-ff0a-4270-85a5-650e8688f0dd?rule=$_1.AUTO",
+    "firstSeenAt": "2026-11-18T03:56:06.906Z"
   }
 ]
