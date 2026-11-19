@@ -2062,5 +2062,37 @@
     "location": "70794 Filderstadt",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/3e/3eb36499-c8dc-4a27-8ad3-ed9177489bef?rule=$_2.AUTO",
     "firstSeenAt": "2026-11-19T03:54:37.598Z"
+  },
+  {
+    "id": "kleinanzeigen:3576189624",
+    "site": "kleinanzeigen",
+    "searchId": "s1790097551950",
+    "externalId": "3576189624",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/familie-4-personen-suchen-wohnung-in-echterdingen/3576189624-203-8453",
+    "title": "Familie 4 Personen suchen Wohnung in Echterdingen",
+    "titleTr": "4 kişilik bir aile, Echterdingen'de daire arıyor",
+    "price": "1.000 €",
+    "priceCold": null,
+    "priceWarm": null,
+    "facts": "60 m² · 3 Zi.",
+    "location": "70771 Leinfelden-Echterdingen",
+    "imageUrl": null,
+    "firstSeenAt": "2026-11-19T19:18:33.781Z"
+  },
+  {
+    "id": "kleinanzeigen:3576016964",
+    "site": "kleinanzeigen",
+    "searchId": "s1790097551950",
+    "externalId": "3576016964",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/attraktive-3-zimmer-wohnung-in-ruhiger-lage-von-echterdingen/3576016964-203-8453",
+    "title": "Attraktive 3-Zimmer-Wohnung in ruhiger Lage von Echterdingen",
+    "titleTr": "Echterdingen’in sakin bir semtinde yer alan çekici 3 odalı daire",
+    "price": "990 €",
+    "priceCold": null,
+    "priceWarm": "1.140 €",
+    "facts": "66 m² · 3 Zi. · Online-Besichtigung",
+    "location": "70771 Leinfelden-Echterdingen",
+    "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/94/942741c3-7413-4f16-ad70-328882d7b181?rule=$_2.AUTO",
+    "firstSeenAt": "2026-11-19T19:18:33.781Z"
   }
 ]
