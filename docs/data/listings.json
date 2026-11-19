@@ -2046,5 +2046,21 @@
     "location": "70771 Leinfelden-Echterdingen",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/55/553b4754-e2be-4e80-b608-2ed569ae3456?rule=$_2.AUTO",
     "firstSeenAt": "2026-11-18T19:13:17.946Z"
+  },
+  {
+    "id": "kleinanzeigen:3575877913",
+    "site": "kleinanzeigen",
+    "searchId": "s1790094439962",
+    "externalId": "3575877913",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/3-zimmer-wohnung-in-zentraler-lage/3575877913-203-8892",
+    "title": "3 Zimmer-Wohnung in zentraler Lage",
+    "titleTr": "Merkezi bir konumda bulunan 3 odalı daire",
+    "price": "1.517 €",
+    "priceCold": null,
+    "priceWarm": "1.877 €",
+    "facts": "87 m² · 3 Zi.",
+    "location": "70794 Filderstadt",
+    "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/3e/3eb36499-c8dc-4a27-8ad3-ed9177489bef?rule=$_2.AUTO",
+    "firstSeenAt": "2026-11-19T03:54:37.598Z"
   }
 ]
