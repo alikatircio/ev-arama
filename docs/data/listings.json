@@ -2094,5 +2094,37 @@
     "location": "70771 Leinfelden-Echterdingen",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/94/942741c3-7413-4f16-ad70-328882d7b181?rule=$_2.AUTO",
     "firstSeenAt": "2026-11-19T19:18:33.781Z"
+  },
+  {
+    "id": "kleinanzeigen:3577759960",
+    "site": "kleinanzeigen",
+    "searchId": "s1790094439962",
+    "externalId": "3577759960",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/helle-3-zi-eg-wohnung-mit-zusaetzl-arbeitszimmer-im-ug/3577759960-203-8892",
+    "title": "Helle 3 Zi .EG-Wohnung mit zusätzl. Arbeitszimmer im UG",
+    "titleTr": "Zemin katta bulunan aydınlık 3 odalı daire, bodrum katında ek bir çalışma odası ile birlikte",
+    "price": "1.110 €",
+    "priceCold": null,
+    "priceWarm": null,
+    "facts": "110 m² · 4 Zi.",
+    "location": "70794 Filderstadt",
+    "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/79/79044398-6f2f-4a49-820f-25ca175f20f6?rule=$_2.AUTO",
+    "firstSeenAt": "2026-11-21T17:51:37.605Z"
+  },
+  {
+    "id": "kleinanzeigen:3577735451",
+    "site": "kleinanzeigen",
+    "searchId": "s1790097551950",
+    "externalId": "3577735451",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/erstbezug-nach-kernsanierung-in-zentraler-lage/3577735451-203-8453",
+    "title": "ERSTBEZUG NACH KERNSANIERUNG IN ZENTRALER LAGE",
+    "titleTr": "MERKEZİ BİR KONUMDA, TAMAMEN YENİLENMİŞ BİR DAİREYE İLK TAŞINMA",
+    "price": "1.600 €",
+    "priceCold": null,
+    "priceWarm": "2.000 €",
+    "facts": "103 m² · 4 Zi.",
+    "location": "70771 Leinfelden-Echterdingen",
+    "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/99/993ee828-3343-403b-b494-3ebdccf5e7de?rule=$_2.AUTO",
+    "firstSeenAt": "2026-11-21T17:51:37.605Z"
   }
 ]
