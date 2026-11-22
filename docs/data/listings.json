@@ -2126,5 +2126,21 @@
     "location": "70771 Leinfelden-Echterdingen",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/99/993ee828-3343-403b-b494-3ebdccf5e7de?rule=$_2.AUTO",
     "firstSeenAt": "2026-11-21T17:51:37.605Z"
+  },
+  {
+    "id": "kleinanzeigen:3579259007",
+    "site": "kleinanzeigen",
+    "searchId": "s1790097551950",
+    "externalId": "3579259007",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/3-5-zimmerwohnung-in-guter-lage-von-echterdingen-zu-vermieten/3579259007-203-8453",
+    "title": "3,5-Zimmerwohnung in guter Lage von Echterdingen zu vermieten",
+    "titleTr": "Echterdingen’in iyi bir konumunda bulunan 3,5 odalı daire kiralık",
+    "price": null,
+    "priceCold": null,
+    "priceWarm": null,
+    "facts": "85 m² · 3,5 Zi.",
+    "location": "70771 Leinfelden-Echterdingen",
+    "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/07/07362223-140b-4b49-96b8-a31d9eabf5ba?rule=$_2.AUTO",
+    "firstSeenAt": "2026-11-22T18:11:22.151Z"
   }
 ]
