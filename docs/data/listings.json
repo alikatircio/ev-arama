@@ -2158,5 +2158,21 @@
     "location": "70794 Filderstadt",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/a2/a2b9d09a-54b9-4329-8eb9-073cdd992a15?rule=$_2.AUTO",
     "firstSeenAt": "2026-11-23T03:20:42.276Z"
+  },
+  {
+    "id": "kleinanzeigen:3580880551",
+    "site": "kleinanzeigen",
+    "searchId": "s1790094439962",
+    "externalId": "3580880551",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/4-zimmer-wohnung/3580880551-203-8892",
+    "title": "4 Zimmer Wohnung",
+    "titleTr": "4 odalı daire",
+    "price": "1.500 €",
+    "priceCold": null,
+    "priceWarm": "1.500 €",
+    "facts": "90 m² · 4 Zi.",
+    "location": "70794 Filderstadt",
+    "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/9e/9e78b945-65d1-4377-a31e-37241d8febea?rule=$_2.AUTO",
+    "firstSeenAt": "2026-11-23T22:23:45.199Z"
   }
 ]
