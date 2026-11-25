@@ -2174,5 +2174,37 @@
     "location": "70794 Filderstadt",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/9e/9e78b945-65d1-4377-a31e-37241d8febea?rule=$_2.AUTO",
     "firstSeenAt": "2026-11-23T22:23:45.199Z"
+  },
+  {
+    "id": "kleinanzeigen:3581459716",
+    "site": "kleinanzeigen",
+    "searchId": "s1790094439962",
+    "externalId": "3581459716",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/95m-dg-maisonett-filderstadt-bernhausen/3581459716-203-8892",
+    "title": "95m² DG Maisonett Filderstadt Bernhausen",
+    "titleTr": "95 m² çatı katı dubleks daire, Filderstadt Bernhausen",
+    "price": "1.250 €",
+    "priceCold": null,
+    "priceWarm": null,
+    "facts": "95 m² · 3 Zi.",
+    "location": "70794 Filderstadt",
+    "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/7f/7f63357a-1867-4a2d-a5e9-3748fd7595d0?rule=$_2.AUTO",
+    "firstSeenAt": "2026-11-25T05:08:31.948Z"
+  },
+  {
+    "id": "kleinanzeigen:3581647003",
+    "site": "kleinanzeigen",
+    "searchId": "s1790097551950",
+    "externalId": "3581647003",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/mietwohnung/3581647003-203-8453",
+    "title": "Mietwohnung",
+    "titleTr": "Kiralık daire",
+    "price": null,
+    "priceCold": null,
+    "priceWarm": null,
+    "facts": "93 m² · 3 Zi.",
+    "location": "70771 Leinfelden-Echterdingen",
+    "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/83/839fd6d0-f42b-42ad-83f2-e91e02614f29?rule=$_2.AUTO",
+    "firstSeenAt": "2026-11-25T05:08:31.948Z"
   }
 ]
