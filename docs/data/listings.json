@@ -2206,5 +2206,37 @@
     "location": "70771 Leinfelden-Echterdingen",
     "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/83/839fd6d0-f42b-42ad-83f2-e91e02614f29?rule=$_2.AUTO",
     "firstSeenAt": "2026-11-25T05:08:31.948Z"
+  },
+  {
+    "id": "kleinanzeigen:3582973268",
+    "site": "kleinanzeigen",
+    "searchId": "s1790097551950",
+    "externalId": "3582973268",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/silvester-im-neuen-zuhause-3-zi-neubau-top-anbindung-stg/3582973268-203-8453",
+    "title": "Silvester im neuen Zuhause? 3-Zi.-Neubau | Top-Anbindung STG",
+    "titleTr": "Yeni evinizde Yılbaşı gecesi mi? 3 odalı yeni inşaat | STG’ye mükemmel ulaşım",
+    "price": "1.400 €",
+    "priceCold": null,
+    "priceWarm": "1.700 €",
+    "facts": "73 m² · 3 Zi. · Online-Besichtigung",
+    "location": "70771 Leinfelden-Echterdingen",
+    "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/94/948ac3e4-d757-4e18-a6e1-5bafa6a42cfc?rule=$_1.AUTO",
+    "firstSeenAt": "2026-11-26T19:57:14.389Z"
+  },
+  {
+    "id": "kleinanzeigen:3582818311",
+    "site": "kleinanzeigen",
+    "searchId": "s1790098150311",
+    "externalId": "3582818311",
+    "url": "https://www.kleinanzeigen.de/s-anzeige/hochwertige-3-zimmer-dachterrassenwohnung-im-penthousestil/3582818311-203-9602",
+    "title": "Hochwertige 3 Zimmer Dachterrassenwohnung im Penthousestil",
+    "titleTr": "Penthouse tarzında, yüksek kaliteli 3 odalı çatı teraslı daire",
+    "price": "1.200 €",
+    "priceCold": null,
+    "priceWarm": "1.830 €",
+    "facts": "70,38 m² · 3 Zi.",
+    "location": "70599 Plieningen",
+    "imageUrl": "https://img.kleinanzeigen.de/api/v1/prod-ads/images/48/485fca9d-fbd2-42dd-970e-1c6d255f45bb?rule=$_2.AUTO",
+    "firstSeenAt": "2026-11-26T19:57:14.389Z"
   }
 ]
